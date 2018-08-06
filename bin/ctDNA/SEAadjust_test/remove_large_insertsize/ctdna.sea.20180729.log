@@ -1,0 +1,4342 @@
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/L80724-22-12.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80724-22-12.A4-SEA1-5396-U-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80724-22-12.A4-SEA1-5396-U-TN.sam -k 20180729_L80724-22-12.A4-SEA1-5396-U-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80724-22-12.A4-SEA1-5396-U-TN.log
+
+Done. Total elapsed time : 9s
+[1] 129   3
+>>> The 1th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.37,0.24,0.2,0.19)
+Mean estimation of B allele freq.: u = (0,0.05,0.45,0.5)
+log likelihood: -489.04
+estimated fetal DNA fraction: 0.105162
+
+>>> The 2th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.38,0.23,0.2,0.19)
+Mean estimation of B allele freq.: u = (0,0.05,0.45,0.5)
+log likelihood: -488.16
+estimated fetal DNA fraction: 0.106295
+
+>>> The 3th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.38,0.23,0.2,0.19)
+Mean estimation of B allele freq.: u = (0,0.05,0.45,0.5)
+log likelihood: -488.16
+estimated fetal DNA fraction: 0.106295
+
+$f
+[1] 0.1062951
+
+$u
+[1] 8.396482e-05 5.314756e-02 4.464100e-01 4.978653e-01
+
+$pii
+[1] 0.3798450 0.2325581 0.2015504 0.1860465
+
+$Gn
+  [1] 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 1 2 3 4 3 2 2 4 4 4 1 3 2 2 3 2
+ [38] 3 4 2 3 4 1 1 4 2 3 2 2 2 3 1 4 4 1 3 3 3 2 4 4 2 1 4 3 1 1 4 1 3 1 3 1 3
+ [75] 1 4 4 1 1 4 1 2 1 2 2 3 3 1 1 4 2 3 1 3 3 2 3 3 3 2 1 4 1 2 2 1 2 2 2 2 1
+[112] 2 1 2 1 4 1 3 4 1 3 2 4 4 3 4 1 1 4
+
+$likelihood
+[1] -488.1633
+
+$iter
+[1] 2
+
+$nsnp
+[1] 129
+
+null device 
+          1 
+NULL
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/L80724-22-38.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80724-22-38.A4-SEA1-5396-U-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80724-22-38.A4-SEA1-5396-U-TN.sam -k 20180729_L80724-22-38.A4-SEA1-5396-U-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80724-22-38.A4-SEA1-5396-U-TN.log
+
+Done. Total elapsed time : 8s
+[1] 129   3
+>>> The 1th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.35,0.18,0.28,0.19)
+Mean estimation of B allele freq.: u = (0,0.06,0.44,0.5)
+log likelihood: -531.06
+estimated fetal DNA fraction: 0.121856
+
+>>> The 2th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.35,0.18,0.26,0.21)
+Mean estimation of B allele freq.: u = (0,0.06,0.43,0.5)
+log likelihood: -530.40
+estimated fetal DNA fraction: 0.121856
+
+>>> The 3th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.35,0.18,0.25,0.22)
+Mean estimation of B allele freq.: u = (0,0.06,0.43,0.5)
+log likelihood: -529.99
+estimated fetal DNA fraction: 0.121856
+
+>>> The 4th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.35,0.18,0.25,0.22)
+Mean estimation of B allele freq.: u = (0,0.06,0.43,0.5)
+log likelihood: -529.99
+estimated fetal DNA fraction: 0.121856
+
+$f
+[1] 0.1218564
+
+$u
+[1] 7.707129e-05 6.092818e-02 4.324623e-01 4.976069e-01
+
+$pii
+[1] 0.3488372 0.1782946 0.2480620 0.2248062
+
+$Gn
+  [1] 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 2 4 3 2 1 1 2 1 3 3 2 1 2 4 2 4 4
+ [38] 4 3 1 4 1 4 1 4 2 3 3 1 3 2 4 3 3 3 4 4 1 4 2 4 2 4 4 3 2 4 1 1 3 3 1 2 4
+ [75] 2 2 3 2 2 1 4 3 3 3 4 3 2 4 1 3 4 4 3 1 2 2 3 1 3 1 4 3 1 1 2 1 1 1 3 4 3
+[112] 1 2 1 3 3 3 3 2 3 4 4 1 4 4 1 4 2 3
+
+$likelihood
+[1] -529.9937
+
+$iter
+[1] 3
+
+$nsnp
+[1] 129
+
+null device 
+          1 
+NULL
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/L80724-22-39.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80724-22-39.A4-SEA1-5396-U-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80724-22-39.A4-SEA1-5396-U-TN.sam -k 20180729_L80724-22-39.A4-SEA1-5396-U-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80724-22-39.A4-SEA1-5396-U-TN.log
+
+Done. Total elapsed time : 7s
+[1] 129   3
+>>> The 1th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.37,0.22,0.25,0.16)
+Mean estimation of B allele freq.: u = (0,0.05,0.44,0.5)
+log likelihood: -495.61
+estimated fetal DNA fraction: 0.108858
+
+>>> The 2th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.37,0.22,0.25,0.16)
+Mean estimation of B allele freq.: u = (0,0.05,0.44,0.5)
+log likelihood: -495.61
+estimated fetal DNA fraction: 0.108858
+
+$f
+[1] 0.1088576
+
+$u
+[1] 0.0000000 0.0544288 0.4435872 0.5032851
+
+$pii
+[1] 0.3720930 0.2170543 0.2480620 0.1627907
+
+$Gn
+  [1] 1 1 1 1 1 1 1 1 1 1 2 1 1 1 1 1 3 1 1 1 1 4 3 2 1 2 1 3 3 3 1 1 4 2 3 3 3
+ [38] 2 3 1 2 3 1 1 3 2 4 2 3 2 4 1 1 3 2 3 2 4 2 3 1 1 2 1 3 2 4 1 2 2 2 3 3 3
+ [75] 1 2 1 2 2 1 4 1 3 3 4 1 2 4 2 4 3 1 4 1 1 2 3 4 2 3 4 4 4 1 3 1 4 3 3 4 1
+[112] 3 3 2 1 4 1 4 2 1 1 1 3 2 2 3 4 4 3
+
+$likelihood
+[1] -495.6093
+
+$iter
+[1] 1
+
+$nsnp
+[1] 129
+
+null device 
+          1 
+NULL
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/L80727-22-01.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-01.A4-SEA1-5396-U-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-01.A4-SEA1-5396-U-TN.sam -k 20180729_L80727-22-01.A4-SEA1-5396-U-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-01.A4-SEA1-5396-U-TN.log
+
+Done. Total elapsed time : 8s
+[1] 126   3
+>>> The 1th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.45,0.21,0.25,0.1)
+Mean estimation of B allele freq.: u = (0,0.06,0.44,0.51)
+log likelihood: -450.39
+estimated fetal DNA fraction: 0.111974
+
+>>> The 2th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.45,0.21,0.25,0.1)
+Mean estimation of B allele freq.: u = (0,0.06,0.44,0.51)
+log likelihood: -450.39
+estimated fetal DNA fraction: 0.111974
+
+$f
+[1] 0.1119745
+
+$u
+[1] 4.382217e-05 5.598724e-02 4.378092e-01 5.051015e-01
+
+$pii
+[1] 0.4523810 0.2063492 0.2460317 0.0952381
+
+$Gn
+  [1] 1 1 1 1 1 1 1 1 1 1 1 1 3 1 1 1 1 1 3 2 3 2 1 1 1 1 1 2 2 3 3 2 2 4 2 4 1
+ [38] 1 4 1 1 2 3 3 2 1 2 4 1 2 1 3 1 2 2 1 1 3 1 3 1 2 1 2 1 3 1 4 2 1 2 3 3 3
+ [75] 1 1 1 4 2 1 4 4 2 3 3 4 1 2 1 3 4 3 3 3 1 2 3 3 1 2 1 1 3 4 3 1 1 1 1 1 3
+[112] 1 2 3 2 2 1 3 3 1 3 1 3 2 4 3
+
+$likelihood
+[1] -450.3946
+
+$iter
+[1] 1
+
+$nsnp
+[1] 126
+
+null device 
+          1 
+NULL
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/L80727-22-02.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-02.A4-SEA1-5396-U-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-02.A4-SEA1-5396-U-TN.sam -k 20180729_L80727-22-02.A4-SEA1-5396-U-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-02.A4-SEA1-5396-U-TN.log
+
+Done. Total elapsed time : 6s
+[1] 129   3
+>>> The 1th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.36,0.26,0.16,0.21)
+Mean estimation of B allele freq.: u = (0,0.02,0.46,0.5)
+log likelihood: -442.39
+estimated fetal DNA fraction: 0.042243
+
+>>> The 2th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.36,0.26,0.17,0.2)
+Mean estimation of B allele freq.: u = (0,0.02,0.46,0.5)
+log likelihood: -442.37
+estimated fetal DNA fraction: 0.042243
+
+>>> The 3th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.36,0.26,0.18,0.19)
+Mean estimation of B allele freq.: u = (0,0.02,0.46,0.5)
+log likelihood: -442.29
+estimated fetal DNA fraction: 0.042243
+
+>>> The 4th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.36,0.26,0.2,0.17)
+Mean estimation of B allele freq.: u = (0,0.02,0.47,0.5)
+log likelihood: -442.17
+estimated fetal DNA fraction: 0.042243
+
+>>> The 5th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.36,0.26,0.22,0.16)
+Mean estimation of B allele freq.: u = (0,0.02,0.47,0.51)
+log likelihood: -442.11
+estimated fetal DNA fraction: 0.042243
+
+>>> The 6th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.36,0.26,0.23,0.14)
+Mean estimation of B allele freq.: u = (0,0.02,0.47,0.51)
+log likelihood: -442.13
+estimated fetal DNA fraction: 0.042243
+
+$f
+[1] 0.0422434
+
+$u
+[1] 0.0000300066 0.0211217012 0.4664205345 0.5063511831
+
+$pii
+[1] 0.3643411 0.2635659 0.2170543 0.1550388
+
+$Gn
+  [1] 1 1 1 1 1 1 1 1 1 1 1 2 1 1 1 1 3 1 1 3 3 4 3 1 3 1 4 1 4 4 2 4 2 3 3 1 1
+ [38] 2 4 4 1 1 3 1 1 3 2 1 2 1 1 3 3 2 3 2 4 4 3 1 3 2 1 4 4 2 3 4 3 1 2 2 4 2
+ [75] 1 1 4 3 2 3 1 1 4 1 1 2 2 3 3 2 1 3 2 2 1 2 1 3 4 2 2 1 2 2 3 3 4 2 4 1 1
+[112] 4 3 2 2 1 1 3 3 2 4 2 3 2 1 2 2 2 2
+
+$likelihood
+[1] -442.1067
+
+$iter
+[1] 5
+
+$nsnp
+[1] 129
+
+null device 
+          1 
+NULL
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/L80727-22-03.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-03.A4-SEA1-5396-U-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-03.A4-SEA1-5396-U-TN.sam -k 20180729_L80727-22-03.A4-SEA1-5396-U-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-03.A4-SEA1-5396-U-TN.log
+
+Done. Total elapsed time : 12s
+[1] 129   3
+>>> The 1th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.33,0.28,0.21,0.19)
+Mean estimation of B allele freq.: u = (0,0.03,0.46,0.5)
+log likelihood: -512.74
+estimated fetal DNA fraction: 0.059910
+
+>>> The 2th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.33,0.28,0.23,0.16)
+Mean estimation of B allele freq.: u = (0,0.03,0.46,0.5)
+log likelihood: -512.39
+estimated fetal DNA fraction: 0.059910
+
+>>> The 3th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.33,0.28,0.24,0.16)
+Mean estimation of B allele freq.: u = (0,0.03,0.46,0.5)
+log likelihood: -512.37
+estimated fetal DNA fraction: 0.059910
+
+>>> The 4th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.33,0.28,0.24,0.16)
+Mean estimation of B allele freq.: u = (0,0.03,0.46,0.5)
+log likelihood: -512.37
+estimated fetal DNA fraction: 0.059910
+
+$f
+[1] 0.05990992
+
+$u
+[1] 7.158196e-05 2.995496e-02 4.627563e-01 5.038357e-01
+
+$pii
+[1] 0.3255814 0.2790698 0.2403101 0.1550388
+
+$Gn
+  [1] 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 2 2 2 2 2 1 2 2 2 2 2 3 2 1 2 2 2
+ [38] 3 4 1 4 2 1 3 2 2 1 1 2 1 4 1 2 2 3 1 2 2 3 3 1 3 3 2 4 2 1 3 2 4 2 4 2 4
+ [75] 3 3 4 4 2 3 4 4 3 1 3 2 1 3 2 3 3 1 4 1 4 2 4 3 3 1 1 3 3 3 2 2 4 2 3 1 4
+[112] 4 4 3 2 1 3 1 3 3 3 1 1 1 3 4 2 3 4
+
+$likelihood
+[1] -512.3696
+
+$iter
+[1] 3
+
+$nsnp
+[1] 129
+
+null device 
+          1 
+NULL
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/L80727-22-04.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-04.A4-SEA1-5396-U-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-04.A4-SEA1-5396-U-TN.sam -k 20180729_L80727-22-04.A4-SEA1-5396-U-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-04.A4-SEA1-5396-U-TN.log
+
+Done. Total elapsed time : 7s
+[1] 129   3
+>>> The 1th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.37,0.22,0.24,0.16)
+Mean estimation of B allele freq.: u = (0,0.07,0.44,0.5)
+log likelihood: -498.53
+estimated fetal DNA fraction: 0.145984
+
+>>> The 2th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.38,0.22,0.23,0.17)
+Mean estimation of B allele freq.: u = (0,0.07,0.44,0.5)
+log likelihood: -496.92
+estimated fetal DNA fraction: 0.147838
+
+>>> The 3th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.38,0.22,0.22,0.19)
+Mean estimation of B allele freq.: u = (0,0.07,0.43,0.5)
+log likelihood: -496.06
+estimated fetal DNA fraction: 0.147838
+
+>>> The 4th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.38,0.22,0.21,0.19)
+Mean estimation of B allele freq.: u = (0,0.07,0.43,0.5)
+log likelihood: -495.61
+estimated fetal DNA fraction: 0.147838
+
+>>> The 5th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.38,0.22,0.19,0.21)
+Mean estimation of B allele freq.: u = (0,0.07,0.43,0.49)
+log likelihood: -494.97
+estimated fetal DNA fraction: 0.147838
+
+>>> The 6th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.38,0.22,0.19,0.22)
+Mean estimation of B allele freq.: u = (0,0.07,0.43,0.49)
+log likelihood: -494.70
+estimated fetal DNA fraction: 0.147838
+
+>>> The 7th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.38,0.22,0.17,0.23)
+Mean estimation of B allele freq.: u = (0,0.07,0.43,0.49)
+log likelihood: -494.34
+estimated fetal DNA fraction: 0.147838
+
+>>> The 8th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.38,0.22,0.16,0.25)
+Mean estimation of B allele freq.: u = (0,0.07,0.42,0.49)
+log likelihood: -494.33
+estimated fetal DNA fraction: 0.147838
+
+>>> The 9th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.38,0.22,0.15,0.26)
+Mean estimation of B allele freq.: u = (0,0.07,0.42,0.49)
+log likelihood: -494.40
+estimated fetal DNA fraction: 0.147838
+
+$f
+[1] 0.1478381
+
+$u
+[1] 0.0001170446 0.0739190306 0.4224398205 0.4885647995
+
+$pii
+[1] 0.3798450 0.2170543 0.1550388 0.2480620
+
+$Gn
+  [1] 1 1 1 1 1 1 1 1 1 1 3 1 1 1 1 1 1 1 4 2 1 4 3 1 1 2 1 2 2 2 1 2 3 1 1 1 2
+ [38] 2 3 1 1 4 4 4 3 4 4 1 3 2 3 4 3 2 3 3 4 4 1 1 3 2 4 1 4 1 1 1 2 4 4 1 1 3
+ [75] 1 2 3 1 2 1 4 4 1 3 4 2 2 2 2 4 4 1 4 1 1 1 2 3 2 4 4 4 3 1 4 4 2 2 4 3 1
+[112] 3 3 2 4 2 2 2 2 3 4 4 1 4 1 4 4 1 2
+
+$likelihood
+[1] -494.3287
+
+$iter
+[1] 8
+
+$nsnp
+[1] 129
+
+null device 
+          1 
+NULL
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/L80727-22-05.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-05.A4-SEA1-5396-U-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-05.A4-SEA1-5396-U-TN.sam -k 20180729_L80727-22-05.A4-SEA1-5396-U-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-05.A4-SEA1-5396-U-TN.log
+
+Done. Total elapsed time : 11s
+[1] 128   3
+>>> The 1th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.38,0.2,0.15,0.27)
+Mean estimation of B allele freq.: u = (0,0.02,0.46,0.5)
+log likelihood: -482.78
+estimated fetal DNA fraction: 0.032725
+
+>>> The 2th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.38,0.2,0.13,0.29)
+Mean estimation of B allele freq.: u = (0,0.02,0.45,0.5)
+log likelihood: -482.95
+estimated fetal DNA fraction: 0.032725
+
+$f
+[1] 0.03272489
+
+$u
+[1] 3.111775e-05 1.636245e-02 4.556400e-01 4.983445e-01
+
+$pii
+[1] 0.3750000 0.2031250 0.1484375 0.2734375
+
+$Gn
+  [1] 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4 1 1 1 1 3 4 2 4 4 3 3 4 2 4 3 4 2 4 2 1 4 2
+ [38] 1 4 4 4 4 3 3 4 4 4 2 4 2 1 4 4 2 1 1 3 1 2 2 1 1 1 1 2 2 2 1 3 1 2 1 3 2
+ [75] 1 2 4 1 3 2 3 1 2 2 1 3 4 2 2 4 1 1 4 4 4 1 3 1 4 4 4 4 3 2 2 1 3 1 2 1 1
+[112] 1 4 3 3 4 4 1 2 4 2 4 1 1 3 4 1 3
+
+$likelihood
+[1] -482.7762
+
+$iter
+[1] 1
+
+$nsnp
+[1] 128
+
+null device 
+          1 
+NULL
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/L80727-22-06.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-06.A4-SEA1-5396-U-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-06.A4-SEA1-5396-U-TN.sam -k 20180729_L80727-22-06.A4-SEA1-5396-U-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-06.A4-SEA1-5396-U-TN.log
+
+Done. Total elapsed time : 29s
+[1] 129   3
+>>> The 1th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.38,0.21,0.19,0.22)
+Mean estimation of B allele freq.: u = (0,0.03,0.45,0.5)
+log likelihood: -660.92
+estimated fetal DNA fraction: 0.062210
+
+>>> The 2th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.38,0.21,0.19,0.22)
+Mean estimation of B allele freq.: u = (0,0.03,0.45,0.5)
+log likelihood: -660.92
+estimated fetal DNA fraction: 0.062210
+
+$f
+[1] 0.06220976
+
+$u
+[1] 3.992096e-05 3.110488e-02 4.505134e-01 5.028599e-01
+
+$pii
+[1] 0.3798450 0.2093023 0.1860465 0.2248062
+
+$Gn
+  [1] 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 3 1 2 2 1 2 4 2 2 3 2 1 2 1 4 3
+ [38] 1 4 3 4 3 3 3 1 3 4 1 4 1 4 4 2 4 4 4 3 4 4 1 2 2 2 3 2 1 1 2 4 1 3 4 2 4
+ [75] 3 1 2 1 2 2 4 2 2 1 2 1 4 3 4 4 2 2 3 3 3 4 2 1 3 1 4 4 4 3 3 1 4 2 1 1 3
+[112] 2 1 4 1 4 3 1 1 1 2 2 4 1 1 3 1 3 4
+
+$likelihood
+[1] -660.9189
+
+$iter
+[1] 1
+
+$nsnp
+[1] 129
+
+null device 
+          1 
+NULL
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/L80727-22-07.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-07.A4-SEA1-5396-U-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-07.A4-SEA1-5396-U-TN.sam -k 20180729_L80727-22-07.A4-SEA1-5396-U-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-07.A4-SEA1-5396-U-TN.log
+
+Done. Total elapsed time : 6s
+[1] 128   3
+>>> The 1th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.35,0.23,0.27,0.14)
+Mean estimation of B allele freq.: u = (0,0.06,0.44,0.5)
+log likelihood: -474.92
+estimated fetal DNA fraction: 0.113064
+
+>>> The 2th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.35,0.23,0.27,0.15)
+Mean estimation of B allele freq.: u = (0,0.06,0.44,0.49)
+log likelihood: -474.72
+estimated fetal DNA fraction: 0.113064
+
+>>> The 3th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.35,0.23,0.27,0.15)
+Mean estimation of B allele freq.: u = (0,0.06,0.44,0.49)
+log likelihood: -474.72
+estimated fetal DNA fraction: 0.113064
+
+$f
+[1] 0.1130642
+
+$u
+[1] 0.0000000 0.0565321 0.4414698 0.4948594
+
+$pii
+[1] 0.3515625 0.2343750 0.2656250 0.1484375
+
+$Gn
+  [1] 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4 1 1 1 1 3 3 1 3 2 1 2 3 2 3 3 4 2 4 4 3 4 3
+ [38] 1 2 1 4 4 2 3 4 2 3 3 4 3 2 3 2 3 4 3 1 3 3 1 1 2 3 1 2 2 3 3 3 3 2 4 3 4
+ [75] 2 1 1 3 3 1 4 2 2 1 3 4 3 2 2 1 3 2 3 3 2 3 4 2 2 2 1 1 4 3 4 3 1 4 2 2 2
+[112] 2 2 1 1 1 1 1 1 1 1 1 1 1 2 2 4 3
+
+$likelihood
+[1] -474.7219
+
+$iter
+[1] 2
+
+$nsnp
+[1] 128
+
+null device 
+          1 
+NULL
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/L80727-22-08.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-08.A4-SEA1-5396-U-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-08.A4-SEA1-5396-U-TN.sam -k 20180729_L80727-22-08.A4-SEA1-5396-U-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-08.A4-SEA1-5396-U-TN.log
+
+Done. Total elapsed time : 6s
+[1] 129   3
+>>> The 1th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.37,0.26,0.22,0.14)
+Mean estimation of B allele freq.: u = (0,0.08,0.43,0.5)
+log likelihood: -498.90
+estimated fetal DNA fraction: 0.158322
+
+>>> The 2th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.37,0.26,0.19,0.18)
+Mean estimation of B allele freq.: u = (0,0.08,0.42,0.5)
+log likelihood: -494.91
+estimated fetal DNA fraction: 0.158322
+
+>>> The 3th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.37,0.26,0.16,0.2)
+Mean estimation of B allele freq.: u = (0,0.08,0.42,0.49)
+log likelihood: -494.20
+estimated fetal DNA fraction: 0.158322
+
+>>> The 4th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.37,0.26,0.16,0.2)
+Mean estimation of B allele freq.: u = (0,0.08,0.42,0.49)
+log likelihood: -494.20
+estimated fetal DNA fraction: 0.158322
+
+$f
+[1] 0.1583221
+
+$u
+[1] 0.00000000 0.07916106 0.41826522 0.49195966
+
+$pii
+[1] 0.3720930 0.2635659 0.1627907 0.2015504
+
+$Gn
+  [1] 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 1 4 1 2 4 3 2 4 4 1 1 1 1 4 1 4 1 3 2
+ [38] 3 2 4 4 1 1 2 3 4 2 3 4 2 4 2 3 3 2 1 1 3 2 3 3 2 2 2 1 2 3 2 4 4 2 2 4 3
+ [75] 4 2 1 1 2 3 3 2 2 1 2 4 2 4 4 1 2 3 3 1 3 4 1 2 4 3 2 1 1 2 1 1 2 1 1 1 1
+[112] 2 3 3 4 4 4 1 2 4 1 2 4 1 1 4 2 2 3
+
+$likelihood
+[1] -494.196
+
+$iter
+[1] 3
+
+$nsnp
+[1] 129
+
+null device 
+          1 
+NULL
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/L80727-22-09.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-09.A4-SEA1-5396-U-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-09.A4-SEA1-5396-U-TN.sam -k 20180729_L80727-22-09.A4-SEA1-5396-U-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-09.A4-SEA1-5396-U-TN.log
+
+Done. Total elapsed time : 8s
+[1] 128   3
+>>> The 1th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.4,0.23,0.22,0.15)
+Mean estimation of B allele freq.: u = (0,0.06,0.43,0.5)
+log likelihood: -466.18
+estimated fetal DNA fraction: 0.128687
+
+>>> The 2th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.41,0.23,0.21,0.16)
+Mean estimation of B allele freq.: u = (0,0.07,0.43,0.5)
+log likelihood: -465.15
+estimated fetal DNA fraction: 0.130193
+
+>>> The 3th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.41,0.23,0.2,0.16)
+Mean estimation of B allele freq.: u = (0,0.07,0.43,0.5)
+log likelihood: -464.94
+estimated fetal DNA fraction: 0.130193
+
+>>> The 4th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.41,0.23,0.2,0.16)
+Mean estimation of B allele freq.: u = (0,0.07,0.43,0.5)
+log likelihood: -464.94
+estimated fetal DNA fraction: 0.130193
+
+$f
+[1] 0.1301928
+
+$u
+[1] 0.0000510087 0.0650964023 0.4296879126 0.4997499687
+
+$pii
+[1] 0.4062500 0.2265625 0.2031250 0.1640625
+
+$Gn
+  [1] 1 1 1 1 1 1 1 3 1 1 1 1 1 1 1 1 1 1 2 4 3 2 1 1 1 3 2 4 3 3 3 3 1 1 2 4 1
+ [38] 4 2 1 3 3 1 1 1 2 1 1 2 3 2 2 1 2 1 1 4 2 3 3 4 2 4 1 3 1 2 3 3 4 4 4 3 4
+ [75] 1 1 1 1 4 2 1 2 3 1 4 1 2 2 3 2 3 4 4 1 2 4 1 2 2 4 1 3 1 4 4 3 2 3 2 3 2
+[112] 2 4 1 2 1 3 4 1 2 2 1 1 1 2 3 1 3
+
+$likelihood
+[1] -464.9437
+
+$iter
+[1] 3
+
+$nsnp
+[1] 128
+
+null device 
+          1 
+NULL
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/L80727-22-10.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-10.A4-SEA1-5396-U-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-10.A4-SEA1-5396-U-TN.sam -k 20180729_L80727-22-10.A4-SEA1-5396-U-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-10.A4-SEA1-5396-U-TN.log
+
+Done. Total elapsed time : 19s
+[1] 129   3
+>>> The 1th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.33,0.21,0.26,0.19)
+Mean estimation of B allele freq.: u = (0,0.03,0.46,0.5)
+log likelihood: -622.53
+estimated fetal DNA fraction: 0.064663
+
+>>> The 2th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.34,0.2,0.26,0.19)
+Mean estimation of B allele freq.: u = (0,0.03,0.46,0.5)
+log likelihood: -621.87
+estimated fetal DNA fraction: 0.065425
+
+>>> The 3th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.34,0.2,0.26,0.19)
+Mean estimation of B allele freq.: u = (0,0.03,0.46,0.5)
+log likelihood: -621.87
+estimated fetal DNA fraction: 0.065425
+
+$f
+[1] 0.0654247
+
+$u
+[1] 5.894906e-05 3.271235e-02 4.556337e-01 4.983238e-01
+
+$pii
+[1] 0.3410853 0.2015504 0.2635659 0.1937984
+
+$Gn
+  [1] 1 1 1 1 1 1 1 1 3 1 1 1 1 1 1 1 1 1 1 1 1 3 2 2 3 2 2 2 2 2 1 2 3 2 4 3 3
+ [38] 2 3 2 3 4 4 3 2 4 2 2 4 1 1 2 4 3 3 4 2 4 1 4 3 4 3 3 2 1 1 4 3 1 3 1 4 1
+ [75] 4 1 1 4 3 3 2 1 2 2 3 3 2 1 3 1 3 3 3 1 4 4 1 3 1 1 4 2 2 3 3 1 4 4 4 3 4
+[112] 4 3 4 3 4 3 1 2 1 1 2 1 3 2 3 1 4 3
+
+$likelihood
+[1] -621.8679
+
+$iter
+[1] 2
+
+$nsnp
+[1] 129
+
+null device 
+          1 
+NULL
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/L80727-22-11.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-11.A4-SEA1-5396-U-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-11.A4-SEA1-5396-U-TN.sam -k 20180729_L80727-22-11.A4-SEA1-5396-U-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-11.A4-SEA1-5396-U-TN.log
+
+Done. Total elapsed time : 7s
+[1] 128   3
+>>> The 1th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.41,0.17,0.2,0.22)
+Mean estimation of B allele freq.: u = (0,0.05,0.44,0.5)
+log likelihood: -454.76
+estimated fetal DNA fraction: 0.100150
+
+>>> The 2th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.41,0.16,0.2,0.23)
+Mean estimation of B allele freq.: u = (0,0.05,0.44,0.5)
+log likelihood: -454.38
+estimated fetal DNA fraction: 0.101836
+
+>>> The 3th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.41,0.16,0.2,0.23)
+Mean estimation of B allele freq.: u = (0,0.05,0.44,0.5)
+log likelihood: -454.38
+estimated fetal DNA fraction: 0.101836
+
+$f
+[1] 0.1018363
+
+$u
+[1] 0.0001290364 0.0509181301 0.4425578035 0.5016533987
+
+$pii
+[1] 0.4140625 0.1640625 0.1953125 0.2265625
+
+$Gn
+  [1] 1 1 1 1 1 1 1 1 1 1 1 3 1 1 1 1 1 1 1 1 4 3 4 2 2 2 2 4 1 1 4 1 1 1 3 3 1
+ [38] 2 3 4 4 2 3 1 1 1 1 2 3 2 3 1 1 2 1 3 3 3 1 1 4 4 4 4 4 1 4 1 1 3 2 1 4 1
+ [75] 1 4 1 3 2 3 2 4 2 2 1 3 1 3 3 1 3 3 1 3 2 1 3 3 4 3 3 4 2 4 1 4 1 4 1 2 4
+[112] 4 2 1 1 4 4 1 4 4 4 4 3 2 4 2 2 1
+
+$likelihood
+[1] -454.3758
+
+$iter
+[1] 2
+
+$nsnp
+[1] 128
+
+null device 
+          1 
+NULL
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/L80727-22-12.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-12.A4-SEA1-5396-U-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-12.A4-SEA1-5396-U-TN.sam -k 20180729_L80727-22-12.A4-SEA1-5396-U-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-12.A4-SEA1-5396-U-TN.log
+
+Done. Total elapsed time : 16s
+[1] 128   3
+>>> The 1th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.32,0.23,0.24,0.21)
+Mean estimation of B allele freq.: u = (0,0.05,0.44,0.5)
+log likelihood: -586.34
+estimated fetal DNA fraction: 0.102220
+
+>>> The 2th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.32,0.23,0.24,0.21)
+Mean estimation of B allele freq.: u = (0,0.05,0.44,0.5)
+log likelihood: -586.34
+estimated fetal DNA fraction: 0.102220
+
+$f
+[1] 0.1022203
+
+$u
+[1] 1.439553e-05 5.111014e-02 4.445707e-01 5.038968e-01
+
+$pii
+[1] 0.3203125 0.2265625 0.2421875 0.2109375
+
+$Gn
+  [1] 1 1 4 1 1 1 1 1 1 1 2 1 1 1 1 1 1 1 1 4 4 1 1 3 2 3 3 1 3 3 4 2 4 4 3 2 4
+ [38] 2 2 3 1 3 3 1 3 3 4 4 3 1 1 2 2 4 3 4 1 1 1 2 2 2 1 2 1 2 2 2 3 2 4 4 1 3
+ [75] 3 2 4 4 1 2 2 4 1 2 3 2 1 3 2 2 3 4 1 3 4 1 1 1 3 4 3 4 1 3 3 2 3 3 4 4 2
+[112] 3 4 3 2 1 2 4 2 1 4 3 2 4 1 4 3 3
+
+$likelihood
+[1] -586.3397
+
+$iter
+[1] 1
+
+$nsnp
+[1] 128
+
+null device 
+          1 
+NULL
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/L80727-22-13.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-13.A4-SEA1-5396-U-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-13.A4-SEA1-5396-U-TN.sam -k 20180729_L80727-22-13.A4-SEA1-5396-U-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-13.A4-SEA1-5396-U-TN.log
+
+Done. Total elapsed time : 21s
+[1] 128   3
+>>> The 1th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.34,0.2,0.22,0.24)
+Mean estimation of B allele freq.: u = (0,0.04,0.44,0.5)
+log likelihood: -611.56
+estimated fetal DNA fraction: 0.082565
+
+>>> The 2th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.34,0.2,0.2,0.26)
+Mean estimation of B allele freq.: u = (0,0.04,0.44,0.5)
+log likelihood: -611.27
+estimated fetal DNA fraction: 0.082565
+
+>>> The 3th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.34,0.2,0.2,0.26)
+Mean estimation of B allele freq.: u = (0,0.04,0.44,0.5)
+log likelihood: -611.27
+estimated fetal DNA fraction: 0.082565
+
+$f
+[1] 0.08256495
+
+$u
+[1] 6.403689e-05 4.128248e-02 4.401242e-01 5.020947e-01
+
+$pii
+[1] 0.3359375 0.2031250 0.2031250 0.2578125
+
+$Gn
+  [1] 1 1 1 2 1 1 1 4 1 1 1 1 1 1 1 1 1 1 1 4 3 3 4 4 1 3 4 1 4 4 4 2 4 3 1 3 4
+ [38] 3 1 3 4 4 1 3 3 3 1 1 1 4 2 2 3 1 2 2 4 2 1 2 2 2 1 1 1 1 2 2 2 4 1 4 2 1
+ [75] 4 3 3 4 1 2 4 4 1 4 2 2 3 3 3 2 2 4 4 3 4 3 1 4 4 1 2 2 1 2 2 4 1 3 4 4 2
+[112] 2 3 1 3 3 1 1 2 3 3 4 3 3 4 4 4 1
+
+$likelihood
+[1] -611.2681
+
+$iter
+[1] 2
+
+$nsnp
+[1] 128
+
+null device 
+          1 
+NULL
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/L80727-22-14.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-14.A4-SEA1-5396-U-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-14.A4-SEA1-5396-U-TN.sam -k 20180729_L80727-22-14.A4-SEA1-5396-U-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-14.A4-SEA1-5396-U-TN.log
+
+Done. Total elapsed time : 9s
+[1] 128   3
+>>> The 1th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.39,0.23,0.14,0.24)
+Mean estimation of B allele freq.: u = (0,0.03,0.45,0.5)
+log likelihood: -476.64
+estimated fetal DNA fraction: 0.058860
+
+>>> The 2th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.39,0.23,0.13,0.25)
+Mean estimation of B allele freq.: u = (0,0.03,0.45,0.5)
+log likelihood: -476.47
+estimated fetal DNA fraction: 0.058860
+
+>>> The 3th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.39,0.23,0.12,0.26)
+Mean estimation of B allele freq.: u = (0,0.03,0.45,0.5)
+log likelihood: -476.32
+estimated fetal DNA fraction: 0.058860
+
+>>> The 4th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.39,0.23,0.12,0.26)
+Mean estimation of B allele freq.: u = (0,0.03,0.45,0.5)
+log likelihood: -476.32
+estimated fetal DNA fraction: 0.058860
+
+$f
+[1] 0.05886036
+
+$u
+[1] 0.0000680195 0.0294301816 0.4481605351 0.4991127723
+
+$pii
+[1] 0.3906250 0.2265625 0.1250000 0.2578125
+
+$Gn
+  [1] 1 1 1 1 1 1 1 1 4 1 1 1 1 1 1 1 1 1 4 1 1 1 1 4 3 3 1 1 2 2 4 3 2 2 1 3 4
+ [38] 1 4 4 4 2 4 4 4 1 4 1 1 1 1 4 4 1 1 3 1 3 3 4 4 1 1 2 2 2 2 2 1 3 1 3 4 2
+ [75] 4 2 2 3 1 4 2 4 2 3 4 1 2 1 2 4 3 2 4 4 4 1 1 2 1 4 1 2 1 2 4 2 1 4 2 2 2
+[112] 4 4 4 4 1 4 3 2 1 3 1 3 1 2 3 2 2
+
+$likelihood
+[1] -476.3211
+
+$iter
+[1] 3
+
+$nsnp
+[1] 128
+
+null device 
+          1 
+NULL
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/L80727-22-15.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-15.A4-SEA1-5396-U-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-15.A4-SEA1-5396-U-TN.sam -k 20180729_L80727-22-15.A4-SEA1-5396-U-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-15.A4-SEA1-5396-U-TN.log
+
+Done. Total elapsed time : 21s
+[1] 129   3
+>>> The 1th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.33,0.19,0.22,0.25)
+Mean estimation of B allele freq.: u = (0,0.05,0.44,0.5)
+log likelihood: -618.16
+estimated fetal DNA fraction: 0.093972
+
+>>> The 2th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.33,0.19,0.2,0.27)
+Mean estimation of B allele freq.: u = (0,0.05,0.44,0.5)
+log likelihood: -616.68
+estimated fetal DNA fraction: 0.093972
+
+>>> The 3th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.33,0.19,0.19,0.29)
+Mean estimation of B allele freq.: u = (0,0.05,0.44,0.49)
+log likelihood: -616.37
+estimated fetal DNA fraction: 0.093972
+
+>>> The 4th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.33,0.19,0.18,0.29)
+Mean estimation of B allele freq.: u = (0,0.05,0.44,0.49)
+log likelihood: -616.32
+estimated fetal DNA fraction: 0.093972
+
+>>> The 5th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.33,0.19,0.18,0.29)
+Mean estimation of B allele freq.: u = (0,0.05,0.44,0.49)
+log likelihood: -616.32
+estimated fetal DNA fraction: 0.093972
+
+$f
+[1] 0.09397214
+
+$u
+[1] 0.00000000 0.04698607 0.43946559 0.49398885
+
+$pii
+[1] 0.3333333 0.1937984 0.1782946 0.2945736
+
+$Gn
+  [1] 1 1 1 1 1 1 1 1 1 1 1 2 3 1 1 1 1 1 1 3 4 3 2 3 1 3 3 2 4 3 4 1 4 2 4 2 4
+ [38] 2 1 1 1 4 4 3 1 4 4 4 2 4 4 1 2 3 2 2 3 3 2 3 4 4 3 4 4 2 1 4 1 1 1 1 1 3
+ [75] 4 2 4 1 2 1 1 1 3 1 2 3 4 4 4 2 2 4 2 1 4 4 3 4 4 1 1 2 1 4 2 3 4 3 2 3 4
+[112] 3 4 3 3 2 1 4 4 2 2 4 1 2 1 1 4 4 4
+
+$likelihood
+[1] -616.3236
+
+$iter
+[1] 4
+
+$nsnp
+[1] 129
+
+null device 
+          1 
+NULL
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/L80727-22-16.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-16.A4-SEA1-5396-U-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-16.A4-SEA1-5396-U-TN.sam -k 20180729_L80727-22-16.A4-SEA1-5396-U-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-16.A4-SEA1-5396-U-TN.log
+
+Done. Total elapsed time : 9s
+[1] 128   3
+>>> The 1th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.33,0.19,0.28,0.2)
+Mean estimation of B allele freq.: u = (0,0.06,0.44,0.51)
+log likelihood: -511.25
+estimated fetal DNA fraction: 0.113256
+
+>>> The 2th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.33,0.19,0.28,0.2)
+Mean estimation of B allele freq.: u = (0,0.06,0.44,0.51)
+log likelihood: -511.25
+estimated fetal DNA fraction: 0.113256
+
+$f
+[1] 0.1132558
+
+$u
+[1] 0.00000000 0.05662792 0.44494224 0.50568433
+
+$pii
+[1] 0.328125 0.187500 0.281250 0.203125
+
+$Gn
+  [1] 1 1 1 1 1 1 1 1 1 1 1 1 4 1 1 2 1 1 1 1 1 2 4 1 2 1 4 2 4 3 2 1 3 3 1 3 2
+ [38] 3 1 2 4 2 2 2 2 2 3 2 4 2 4 3 4 1 1 2 3 4 2 4 1 4 3 2 3 2 4 2 3 3 4 2 1 3
+ [75] 1 4 2 3 1 1 2 4 4 4 3 1 3 1 4 1 3 1 3 4 3 3 3 3 3 1 4 3 4 3 2 1 3 3 3 3 4
+[112] 4 4 1 1 3 4 3 3 3 4 3 2 3 1 1 3 1
+
+$likelihood
+[1] -511.2497
+
+$iter
+[1] 1
+
+$nsnp
+[1] 128
+
+null device 
+          1 
+NULL
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/L80727-22-17.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-17.A4-SEA1-5396-U-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-17.A4-SEA1-5396-U-TN.sam -k 20180729_L80727-22-17.A4-SEA1-5396-U-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-17.A4-SEA1-5396-U-TN.log
+
+Done. Total elapsed time : 9s
+[1] 128   3
+>>> The 1th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.42,0.19,0.21,0.18)
+Mean estimation of B allele freq.: u = (0,0.04,0.45,0.5)
+log likelihood: -501.46
+estimated fetal DNA fraction: 0.071008
+
+>>> The 2th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.42,0.19,0.21,0.18)
+Mean estimation of B allele freq.: u = (0,0.04,0.45,0.5)
+log likelihood: -501.46
+estimated fetal DNA fraction: 0.071008
+
+$f
+[1] 0.07100792
+
+$u
+[1] 5.583577e-05 3.550396e-02 4.502024e-01 4.992436e-01
+
+$pii
+[1] 0.4218750 0.1875000 0.2109375 0.1796875
+
+$Gn
+  [1] 1 1 1 1 1 1 1 1 4 1 1 1 1 1 1 1 1 1 1 1 3 4 4 3 3 3 2 2 2 2 1 4 1 1 4 4 3
+ [38] 4 1 1 4 2 2 2 1 2 4 2 4 4 2 2 1 1 1 4 3 1 3 3 4 3 1 2 2 1 3 3 2 3 1 4 1 2
+ [75] 3 1 1 1 4 2 3 2 2 4 1 1 4 1 1 2 1 4 3 2 3 3 3 1 1 1 3 1 1 2 3 4 1 3 3 2 1
+[112] 1 4 1 1 4 1 3 3 1 4 2 2 3 4 3 3 1
+
+$likelihood
+[1] -501.4581
+
+$iter
+[1] 1
+
+$nsnp
+[1] 128
+
+null device 
+          1 
+NULL
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/L80727-22-18.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-18.A4-SEA1-5396-U-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-18.A4-SEA1-5396-U-TN.sam -k 20180729_L80727-22-18.A4-SEA1-5396-U-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-18.A4-SEA1-5396-U-TN.log
+
+Done. Total elapsed time : 14s
+[1] 128   3
+>>> The 1th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.34,0.2,0.24,0.23)
+Mean estimation of B allele freq.: u = (0,0.04,0.44,0.49)
+log likelihood: -556.59
+estimated fetal DNA fraction: 0.083023
+
+>>> The 2th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.34,0.2,0.22,0.25)
+Mean estimation of B allele freq.: u = (0,0.04,0.44,0.49)
+log likelihood: -555.11
+estimated fetal DNA fraction: 0.083023
+
+>>> The 3th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.34,0.2,0.2,0.27)
+Mean estimation of B allele freq.: u = (0,0.04,0.44,0.49)
+log likelihood: -555.06
+estimated fetal DNA fraction: 0.083023
+
+>>> The 4th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.34,0.2,0.2,0.27)
+Mean estimation of B allele freq.: u = (0,0.04,0.44,0.49)
+log likelihood: -555.06
+estimated fetal DNA fraction: 0.083023
+
+$f
+[1] 0.08302323
+
+$u
+[1] 0.0000899928 0.0415116130 0.4373112695 0.4912713936
+
+$pii
+[1] 0.3359375 0.1953125 0.2031250 0.2656250
+
+$Gn
+  [1] 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4 1 1 1 1 1 3 4 4 3 3 4 4 1 1 1 3 1 1 1 2 2 1
+ [38] 3 4 4 3 1 2 3 2 2 2 4 3 2 4 2 3 3 4 3 2 4 3 3 2 4 1 3 4 2 2 4 4 1 3 1 3 2
+ [75] 1 1 4 2 4 4 3 4 1 2 2 2 3 2 4 4 3 4 2 3 2 3 3 2 4 1 4 2 4 1 1 4 1 4 1 1 3
+[112] 4 1 1 2 1 2 4 4 3 3 4 4 2 3 4 1 4
+
+$likelihood
+[1] -555.0637
+
+$iter
+[1] 3
+
+$nsnp
+[1] 128
+
+null device 
+          1 
+NULL
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/L80727-22-19.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-19.A4-SEA1-5396-U-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-19.A4-SEA1-5396-U-TN.sam -k 20180729_L80727-22-19.A4-SEA1-5396-U-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-19.A4-SEA1-5396-U-TN.log
+
+Done. Total elapsed time : 10s
+[1] 128   3
+>>> The 1th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.38,0.25,0.21,0.16)
+Mean estimation of B allele freq.: u = (0,0.05,0.44,0.5)
+log likelihood: -529.55
+estimated fetal DNA fraction: 0.092074
+
+>>> The 2th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.38,0.25,0.21,0.16)
+Mean estimation of B allele freq.: u = (0,0.05,0.44,0.5)
+log likelihood: -529.55
+estimated fetal DNA fraction: 0.092074
+
+$f
+[1] 0.09207419
+
+$u
+[1] 0.0000333901 0.0460370942 0.4446265678 0.5046824375
+
+$pii
+[1] 0.3750000 0.2500000 0.2109375 0.1640625
+
+$Gn
+  [1] 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 1 1 1 1 1 3 1 1 4 3 2 3 4 2 2 1 3 3 1 2 1 4
+ [38] 1 1 4 1 1 3 3 4 2 1 3 4 4 2 3 2 1 3 2 1 2 4 2 3 3 3 1 3 2 1 1 3 3 2 4 3 2
+ [75] 2 2 1 1 3 4 2 2 1 1 4 4 1 2 2 2 2 3 2 4 3 1 2 1 4 1 2 4 3 2 4 1 4 1 2 2 4
+[112] 1 3 3 1 2 3 3 3 4 3 2 4 2 4 1 2 1
+
+$likelihood
+[1] -529.5453
+
+$iter
+[1] 1
+
+$nsnp
+[1] 128
+
+null device 
+          1 
+NULL
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/L80727-22-20.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-20.A4-SEA1-5396-U-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-20.A4-SEA1-5396-U-TN.sam -k 20180729_L80727-22-20.A4-SEA1-5396-U-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-20.A4-SEA1-5396-U-TN.log
+
+Done. Total elapsed time : 12s
+[1] 129   3
+>>> The 1th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.43,0.13,0.12,0.31)
+Mean estimation of B allele freq.: u = (0,0.02,0.45,0.5)
+log likelihood: -497.40
+estimated fetal DNA fraction: 0.044611
+
+>>> The 2th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.43,0.13,0.09,0.34)
+Mean estimation of B allele freq.: u = (0,0.02,0.44,0.5)
+log likelihood: -493.19
+estimated fetal DNA fraction: 0.044611
+
+>>> The 3th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.43,0.13,0.07,0.36)
+Mean estimation of B allele freq.: u = (0,0.02,0.43,0.49)
+log likelihood: -490.33
+estimated fetal DNA fraction: 0.044611
+
+>>> The 4th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.43,0.13,0.05,0.38)
+Mean estimation of B allele freq.: u = (0,0.02,0.42,0.49)
+log likelihood: -487.08
+estimated fetal DNA fraction: 0.044611
+
+>>> The 5th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.43,0.13,0.04,0.4)
+Mean estimation of B allele freq.: u = (0,0.02,0.41,0.49)
+log likelihood: -480.81
+estimated fetal DNA fraction: 0.044611
+
+>>> The 6th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.43,0.13,0.02,0.41)
+Mean estimation of B allele freq.: u = (0,0.02,0.38,0.49)
+log likelihood: -471.45
+estimated fetal DNA fraction: 0.044611
+
+>>> The 7th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.43,0.13,0.02,0.42)
+Mean estimation of B allele freq.: u = (0,0.02,0.35,0.49)
+log likelihood: -466.72
+estimated fetal DNA fraction: 0.044611
+
+>>> The 8th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.43,0.13,0.02,0.42)
+Mean estimation of B allele freq.: u = (0,0.02,0.35,0.49)
+log likelihood: -466.72
+estimated fetal DNA fraction: 0.044611
+
+$f
+[1] 0.04461115
+
+$u
+[1] 2.337678e-05 2.230558e-02 3.492475e-01 4.891670e-01
+
+$pii
+[1] 0.43410853 0.13178295 0.01550388 0.41860465
+
+$Gn
+  [1] 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 4 4 1 4 4 3 2 4 1 4 4 4 4 1 4 4 4 2
+ [38] 1 4 2 4 2 4 3 1 2 4 4 4 1 4 1 2 1 1 1 1 4 2 4 1 4 4 1 4 2 2 2 1 4 4 1 1 4
+ [75] 4 1 4 2 1 1 1 4 4 4 1 2 4 1 4 4 1 1 1 1 4 1 4 4 4 4 2 1 4 4 4 4 2 4 1 1 4
+[112] 1 1 1 1 1 2 4 4 2 4 4 1 4 1 1 4 4 4
+
+$likelihood
+[1] -466.7154
+
+$iter
+[1] 7
+
+$nsnp
+[1] 129
+
+null device 
+          1 
+NULL
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/L80727-22-21.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-21.A4-SEA1-5396-U-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-21.A4-SEA1-5396-U-TN.sam -k 20180729_L80727-22-21.A4-SEA1-5396-U-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-21.A4-SEA1-5396-U-TN.log
+
+Done. Total elapsed time : 15s
+[1] 129   3
+>>> The 1th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.37,0.19,0.17,0.26)
+Mean estimation of B allele freq.: u = (0,0.03,0.46,0.5)
+log likelihood: -532.15
+estimated fetal DNA fraction: 0.058619
+
+>>> The 2th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.37,0.19,0.18,0.26)
+Mean estimation of B allele freq.: u = (0,0.03,0.46,0.5)
+log likelihood: -531.92
+estimated fetal DNA fraction: 0.058619
+
+>>> The 3th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.37,0.19,0.19,0.25)
+Mean estimation of B allele freq.: u = (0,0.03,0.46,0.5)
+log likelihood: -531.72
+estimated fetal DNA fraction: 0.058619
+
+>>> The 4th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.37,0.19,0.19,0.24)
+Mean estimation of B allele freq.: u = (0,0.03,0.46,0.5)
+log likelihood: -531.61
+estimated fetal DNA fraction: 0.058619
+
+>>> The 5th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.37,0.19,0.19,0.24)
+Mean estimation of B allele freq.: u = (0,0.03,0.46,0.5)
+log likelihood: -531.61
+estimated fetal DNA fraction: 0.058619
+
+$f
+[1] 0.0586189
+
+$u
+[1] 3.807457e-05 2.930945e-02 4.596015e-01 5.023449e-01
+
+$pii
+[1] 0.3720930 0.1937984 0.1937984 0.2403101
+
+$Gn
+  [1] 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 4 4 3 2 3 1 2 3 3 4 2 4 1 4 4 4
+ [38] 2 4 4 1 2 4 2 4 2 2 1 2 1 2 2 1 1 4 3 3 1 3 1 4 4 1 1 2 2 3 1 3 1 3 2 2 4
+ [75] 1 3 1 4 1 1 2 1 4 4 1 4 4 3 1 2 1 3 3 2 2 3 1 4 2 4 4 1 3 2 4 3 3 3 4 2 2
+[112] 4 4 1 4 2 4 3 3 1 1 2 1 3 3 4 1 4 3
+
+$likelihood
+[1] -531.6118
+
+$iter
+[1] 4
+
+$nsnp
+[1] 129
+
+null device 
+          1 
+NULL
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/L80727-22-22.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-22.A4-SEA1-5396-U-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-22.A4-SEA1-5396-U-TN.sam -k 20180729_L80727-22-22.A4-SEA1-5396-U-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-22.A4-SEA1-5396-U-TN.log
+
+Done. Total elapsed time : 12s
+[1] 129   3
+>>> The 1th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.33,0.16,0.28,0.22)
+Mean estimation of B allele freq.: u = (0,0.04,0.45,0.5)
+log likelihood: -562.99
+estimated fetal DNA fraction: 0.081306
+
+>>> The 2th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.33,0.16,0.28,0.22)
+Mean estimation of B allele freq.: u = (0,0.04,0.45,0.5)
+log likelihood: -562.99
+estimated fetal DNA fraction: 0.081306
+
+$f
+[1] 0.08130585
+
+$u
+[1] 3.114198e-05 4.065292e-02 4.499026e-01 4.996411e-01
+
+$pii
+[1] 0.3333333 0.1627907 0.2790698 0.2248062
+
+$Gn
+  [1] 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4 4 3 3 3 2 2 1 3 2 2 3 2 4 2 3 3 1
+ [38] 4 1 1 3 1 1 3 2 4 3 3 1 4 2 3 4 1 3 4 2 1 1 2 4 3 4 3 3 2 1 4 1 1 2 4 3 4
+ [75] 3 2 3 1 3 3 1 3 1 1 4 3 3 4 3 4 4 4 3 3 2 4 2 3 2 4 4 2 3 2 4 1 3 4 4 1 4
+[112] 3 2 3 2 4 1 4 3 1 3 3 3 1 1 2 4 1 4
+
+$likelihood
+[1] -562.994
+
+$iter
+[1] 1
+
+$nsnp
+[1] 129
+
+null device 
+          1 
+NULL
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/L80727-22-23.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-23.A4-SEA1-5396-U-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-23.A4-SEA1-5396-U-TN.sam -k 20180729_L80727-22-23.A4-SEA1-5396-U-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-23.A4-SEA1-5396-U-TN.log
+
+Done. Total elapsed time : 11s
+[1] 128   3
+>>> The 1th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.31,0.23,0.27,0.18)
+Mean estimation of B allele freq.: u = (0,0.04,0.45,0.5)
+log likelihood: -577.92
+estimated fetal DNA fraction: 0.089362
+
+>>> The 2th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.31,0.23,0.27,0.18)
+Mean estimation of B allele freq.: u = (0,0.04,0.45,0.5)
+log likelihood: -577.92
+estimated fetal DNA fraction: 0.089362
+
+$f
+[1] 0.08936205
+
+$u
+[1] 2.973845e-05 4.468102e-02 4.513746e-01 5.021347e-01
+
+$pii
+[1] 0.3125000 0.2343750 0.2734375 0.1796875
+
+$Gn
+  [1] 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 1 1 1 1 3 3 3 1 1 4 3 2 4 3 3 3 3 1 2 3 2 2
+ [38] 3 4 1 2 3 4 3 3 1 2 3 4 2 1 2 1 2 4 2 2 2 2 3 2 2 1 3 2 2 1 2 1 3 4 4 4 1
+ [75] 3 2 4 3 1 3 1 3 1 1 2 4 1 1 4 2 2 2 3 3 3 3 2 3 4 2 1 1 4 3 3 2 3 4 3 3 1
+[112] 4 4 4 4 4 4 3 4 2 2 3 2 4 3 1 1 2
+
+$likelihood
+[1] -577.9178
+
+$iter
+[1] 1
+
+$nsnp
+[1] 128
+
+null device 
+          1 
+NULL
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/L80727-22-24.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-24.A4-SEA1-5396-U-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-24.A4-SEA1-5396-U-TN.sam -k 20180729_L80727-22-24.A4-SEA1-5396-U-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-24.A4-SEA1-5396-U-TN.log
+
+Done. Total elapsed time : 8s
+[1] 129   3
+>>> The 1th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.34,0.21,0.23,0.22)
+Mean estimation of B allele freq.: u = (0,0.04,0.46,0.5)
+log likelihood: -506.50
+estimated fetal DNA fraction: 0.070601
+
+>>> The 2th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.34,0.21,0.25,0.2)
+Mean estimation of B allele freq.: u = (0,0.04,0.46,0.5)
+log likelihood: -506.30
+estimated fetal DNA fraction: 0.070601
+
+>>> The 3th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.34,0.21,0.26,0.19)
+Mean estimation of B allele freq.: u = (0,0.04,0.46,0.5)
+log likelihood: -506.09
+estimated fetal DNA fraction: 0.070601
+
+>>> The 4th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.34,0.21,0.29,0.16)
+Mean estimation of B allele freq.: u = (0,0.04,0.46,0.51)
+log likelihood: -505.92
+estimated fetal DNA fraction: 0.070601
+
+>>> The 5th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.34,0.21,0.32,0.13)
+Mean estimation of B allele freq.: u = (0,0.04,0.46,0.51)
+log likelihood: -505.99
+estimated fetal DNA fraction: 0.070601
+
+$f
+[1] 0.07060087
+
+$u
+[1] 2.370848e-05 3.530043e-02 4.623308e-01 5.051120e-01
+
+$pii
+[1] 0.3410853 0.2093023 0.2868217 0.1627907
+
+$Gn
+  [1] 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 1 1 1 1 1 3 3 1 1 3 4 1 4 2 2 3 2 1 4 3 4 4
+ [38] 3 4 2 3 1 3 3 4 2 3 1 1 1 2 1 3 2 3 4 3 3 2 3 2 3 3 3 4 2 4 3 4 2 3 3 2 2
+ [75] 4 2 4 2 3 4 3 2 1 2 2 3 1 1 4 1 2 4 1 3 2 1 1 1 3 3 3 2 3 3 2 4 1 3 1 1 2
+[112] 4 1 4 2 2 2 4 3 1 3 1 3 3 3 4 1 1 3
+
+$likelihood
+[1] -505.9201
+
+$iter
+[1] 4
+
+$nsnp
+[1] 129
+
+null device 
+          1 
+NULL
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/L80727-22-25.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-25.A4-SEA1-5396-U-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-25.A4-SEA1-5396-U-TN.sam -k 20180729_L80727-22-25.A4-SEA1-5396-U-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-25.A4-SEA1-5396-U-TN.log
+
+Done. Total elapsed time : 9s
+[1] 128   3
+>>> The 1th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.37,0.19,0.16,0.28)
+Mean estimation of B allele freq.: u = (0,0.03,0.46,0.5)
+log likelihood: -456.52
+estimated fetal DNA fraction: 0.050398
+
+>>> The 2th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.37,0.19,0.18,0.27)
+Mean estimation of B allele freq.: u = (0,0.03,0.47,0.51)
+log likelihood: -455.99
+estimated fetal DNA fraction: 0.050398
+
+>>> The 3th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.37,0.19,0.19,0.26)
+Mean estimation of B allele freq.: u = (0,0.03,0.47,0.51)
+log likelihood: -455.77
+estimated fetal DNA fraction: 0.050398
+
+>>> The 4th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.37,0.19,0.2,0.24)
+Mean estimation of B allele freq.: u = (0,0.03,0.47,0.51)
+log likelihood: -455.43
+estimated fetal DNA fraction: 0.050398
+
+>>> The 5th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.37,0.19,0.23,0.22)
+Mean estimation of B allele freq.: u = (0,0.03,0.47,0.51)
+log likelihood: -455.25
+estimated fetal DNA fraction: 0.050398
+
+>>> The 6th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.37,0.19,0.23,0.21)
+Mean estimation of B allele freq.: u = (0,0.03,0.47,0.51)
+log likelihood: -455.26
+estimated fetal DNA fraction: 0.050398
+
+$f
+[1] 0.050398
+
+$u
+[1] 0.0000000 0.0251990 0.4688048 0.5098900
+
+$pii
+[1] 0.3671875 0.1875000 0.2265625 0.2187500
+
+$Gn
+  [1] 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 1 1 1 1 3 3 3 2 3 1 3 3 2 1 1 4 4 4 1 1 1 4
+ [38] 3 3 2 1 4 4 1 2 1 4 1 3 1 4 1 3 3 1 2 1 4 3 2 2 3 1 1 3 2 1 4 3 3 4 2 2 3
+ [75] 2 2 1 2 4 3 1 2 1 1 4 1 4 4 2 4 3 4 3 1 2 3 1 1 4 2 4 4 3 1 1 1 2 2 4 4 4
+[112] 2 4 2 3 2 3 4 4 3 3 3 2 3 1 4 2 4
+
+$likelihood
+[1] -455.2456
+
+$iter
+[1] 5
+
+$nsnp
+[1] 128
+
+null device 
+          1 
+NULL
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/L80727-22-26.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-26.A4-SEA1-5396-U-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-26.A4-SEA1-5396-U-TN.sam -k 20180729_L80727-22-26.A4-SEA1-5396-U-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-26.A4-SEA1-5396-U-TN.log
+
+Done. Total elapsed time : 9s
+[1] 128   3
+>>> The 1th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.38,0.18,0.23,0.21)
+Mean estimation of B allele freq.: u = (0,0.04,0.45,0.51)
+log likelihood: -489.26
+estimated fetal DNA fraction: 0.078455
+
+>>> The 2th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.38,0.18,0.24,0.2)
+Mean estimation of B allele freq.: u = (0,0.04,0.45,0.51)
+log likelihood: -489.29
+estimated fetal DNA fraction: 0.078455
+
+$f
+[1] 0.07845471
+
+$u
+[1] 0.00000000 0.03922735 0.45350704 0.50588660
+
+$pii
+[1] 0.3828125 0.1796875 0.2265625 0.2109375
+
+$Gn
+  [1] 1 1 1 1 1 1 1 4 1 1 1 1 1 1 4 1 1 1 1 3 1 4 4 3 1 4 4 1 3 4 1 2 3 1 1 2 3
+ [38] 4 4 1 4 2 1 3 3 3 2 3 1 3 1 1 2 1 1 1 1 2 2 3 2 1 1 1 1 2 3 3 4 1 1 3 1 4
+ [75] 2 3 3 2 3 2 3 2 4 2 1 3 3 4 2 4 4 2 4 1 3 2 4 2 3 4 3 2 2 2 3 3 4 1 1 4 4
+[112] 4 1 2 1 3 1 2 3 1 1 4 4 4 4 3 3 1
+
+$likelihood
+[1] -489.2617
+
+$iter
+[1] 1
+
+$nsnp
+[1] 128
+
+null device 
+          1 
+NULL
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/L80727-22-27.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-27.A4-SEA1-5396-U-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-27.A4-SEA1-5396-U-TN.sam -k 20180729_L80727-22-27.A4-SEA1-5396-U-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-27.A4-SEA1-5396-U-TN.log
+
+Done. Total elapsed time : 9s
+[1] 129   3
+>>> The 1th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.36,0.19,0.21,0.23)
+Mean estimation of B allele freq.: u = (0,0.04,0.45,0.5)
+log likelihood: -508.39
+estimated fetal DNA fraction: 0.082164
+
+>>> The 2th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.36,0.19,0.21,0.23)
+Mean estimation of B allele freq.: u = (0,0.04,0.45,0.5)
+log likelihood: -508.39
+estimated fetal DNA fraction: 0.082164
+
+$f
+[1] 0.0821639
+
+$u
+[1] 0.00000000 0.04108195 0.44622863 0.50397986
+
+$pii
+[1] 0.3643411 0.1937984 0.2093023 0.2325581
+
+$Gn
+  [1] 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 3 4 4 1 3 1 1 2 1 1 3 4 4 4 4 4 4
+ [38] 1 4 4 4 2 1 3 4 4 2 3 1 1 2 1 2 4 2 2 1 3 3 2 4 2 3 1 3 2 1 1 4 2 3 3 4 2
+ [75] 3 4 2 2 2 1 1 3 1 1 3 3 4 2 3 4 3 3 1 4 4 2 2 1 4 4 2 1 3 3 4 1 2 3 3 2 1
+[112] 3 4 1 2 4 2 4 1 3 3 2 1 1 4 2 3 1 4
+
+$likelihood
+[1] -508.3922
+
+$iter
+[1] 1
+
+$nsnp
+[1] 129
+
+null device 
+          1 
+NULL
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/L80727-22-28.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-28.A4-SEA1-5396-U-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-28.A4-SEA1-5396-U-TN.sam -k 20180729_L80727-22-28.A4-SEA1-5396-U-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-28.A4-SEA1-5396-U-TN.log
+
+Done. Total elapsed time : 10s
+[1] 129   3
+>>> The 1th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.34,0.26,0.13,0.27)
+Mean estimation of B allele freq.: u = (0,0.02,0.46,0.5)
+log likelihood: -509.34
+estimated fetal DNA fraction: 0.042324
+
+>>> The 2th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.34,0.26,0.12,0.28)
+Mean estimation of B allele freq.: u = (0,0.02,0.46,0.5)
+log likelihood: -509.27
+estimated fetal DNA fraction: 0.042324
+
+>>> The 3th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.34,0.26,0.12,0.28)
+Mean estimation of B allele freq.: u = (0,0.02,0.46,0.5)
+log likelihood: -509.27
+estimated fetal DNA fraction: 0.042324
+
+$f
+[1] 0.04232388
+
+$u
+[1] 3.530139e-05 2.116194e-02 4.601123e-01 4.981508e-01
+
+$pii
+[1] 0.3410853 0.2558140 0.1240310 0.2790698
+
+$Gn
+  [1] 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 4 4 4 1 2 1 4 4 3 1 1 1 3 4 4 3
+ [38] 1 4 3 1 4 1 3 3 4 2 3 4 1 2 2 4 4 4 4 2 2 3 2 1 3 1 3 2 2 2 2 1 1 4 1 2 4
+ [75] 2 1 4 1 2 4 4 1 4 4 2 1 2 2 4 4 2 1 2 4 4 2 2 2 2 2 4 1 1 1 1 4 4 2 3 3 2
+[112] 4 4 2 3 3 4 2 4 2 4 3 1 3 2 2 4 1 4
+
+$likelihood
+[1] -509.2666
+
+$iter
+[1] 2
+
+$nsnp
+[1] 129
+
+null device 
+          1 
+NULL
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/L80727-22-29.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-29.A4-SEA1-5396-U-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-29.A4-SEA1-5396-U-TN.sam -k 20180729_L80727-22-29.A4-SEA1-5396-U-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-29.A4-SEA1-5396-U-TN.log
+
+Done. Total elapsed time : 12s
+[1] 129   3
+>>> The 1th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.37,0.19,0.19,0.25)
+Mean estimation of B allele freq.: u = (0,0.02,0.46,0.5)
+log likelihood: -552.03
+estimated fetal DNA fraction: 0.040216
+
+>>> The 2th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.37,0.19,0.2,0.23)
+Mean estimation of B allele freq.: u = (0,0.02,0.46,0.5)
+log likelihood: -551.84
+estimated fetal DNA fraction: 0.040216
+
+>>> The 3th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.37,0.19,0.22,0.21)
+Mean estimation of B allele freq.: u = (0,0.02,0.46,0.51)
+log likelihood: -551.95
+estimated fetal DNA fraction: 0.040216
+
+$f
+[1] 0.04021595
+
+$u
+[1] 1.398113e-05 2.010798e-02 4.599387e-01 5.029446e-01
+
+$pii
+[1] 0.3720930 0.1937984 0.2015504 0.2325581
+
+$Gn
+  [1] 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 2 4 1 3 4 1 3 3 4 1 4 2 4 1 3 2
+ [38] 4 1 1 1 4 1 2 2 4 4 3 3 4 4 4 2 4 1 1 2 2 1 3 4 1 1 3 1 2 1 3 2 2 3 3 2 4
+ [75] 1 3 1 1 2 3 4 3 1 4 3 1 4 3 1 4 3 3 4 3 2 1 4 3 3 2 2 4 2 4 4 1 2 4 4 2 3
+[112] 4 2 1 3 4 2 1 3 1 1 2 2 4 2 2 1 4 3
+
+$likelihood
+[1] -551.8448
+
+$iter
+[1] 2
+
+$nsnp
+[1] 129
+
+null device 
+          1 
+NULL
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/L80727-22-30.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-30.A4-SEA1-5396-U-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-30.A4-SEA1-5396-U-TN.sam -k 20180729_L80727-22-30.A4-SEA1-5396-U-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-30.A4-SEA1-5396-U-TN.log
+
+Done. Total elapsed time : 11s
+[1] 129   3
+>>> The 1th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.38,0.19,0.3,0.13)
+Mean estimation of B allele freq.: u = (0,0.04,0.45,0.49)
+log likelihood: -528.53
+estimated fetal DNA fraction: 0.081742
+
+>>> The 2th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.38,0.19,0.31,0.12)
+Mean estimation of B allele freq.: u = (0,0.04,0.45,0.5)
+log likelihood: -528.47
+estimated fetal DNA fraction: 0.081742
+
+>>> The 3th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.38,0.19,0.32,0.12)
+Mean estimation of B allele freq.: u = (0,0.04,0.45,0.5)
+log likelihood: -528.50
+estimated fetal DNA fraction: 0.081742
+
+$f
+[1] 0.08174231
+
+$u
+[1] 2.926587e-05 4.087115e-02 4.489962e-01 4.958254e-01
+
+$pii
+[1] 0.3798450 0.1860465 0.3100775 0.1240310
+
+$Gn
+  [1] 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4 2 1 1 2 3 3 1 2 1 1 3 2 1 2 3 3 1
+ [38] 1 1 3 1 1 1 3 4 3 3 2 1 3 1 3 2 3 3 1 1 4 3 2 3 2 3 3 1 2 1 3 2 3 2 4 3 1
+ [75] 3 4 2 3 3 2 4 4 3 3 3 1 2 4 3 2 3 3 4 3 3 3 4 1 4 3 1 2 2 4 3 2 1 3 3 1 4
+[112] 2 1 1 3 4 1 1 1 2 2 1 2 3 3 3 2 4 4
+
+$likelihood
+[1] -528.4717
+
+$iter
+[1] 2
+
+$nsnp
+[1] 129
+
+null device 
+          1 
+NULL
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/L80727-22-31.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-31.A4-SEA1-5396-U-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-31.A4-SEA1-5396-U-TN.sam -k 20180729_L80727-22-31.A4-SEA1-5396-U-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-31.A4-SEA1-5396-U-TN.log
+
+Done. Total elapsed time : 11s
+[1] 129   3
+>>> The 1th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.35,0.26,0.22,0.17)
+Mean estimation of B allele freq.: u = (0,0.05,0.44,0.5)
+log likelihood: -543.08
+estimated fetal DNA fraction: 0.102997
+
+>>> The 2th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.35,0.26,0.22,0.18)
+Mean estimation of B allele freq.: u = (0,0.05,0.44,0.5)
+log likelihood: -542.45
+estimated fetal DNA fraction: 0.102997
+
+>>> The 3th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.35,0.26,0.2,0.19)
+Mean estimation of B allele freq.: u = (0,0.05,0.44,0.5)
+log likelihood: -541.91
+estimated fetal DNA fraction: 0.102997
+
+>>> The 4th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.35,0.26,0.19,0.2)
+Mean estimation of B allele freq.: u = (0,0.05,0.44,0.5)
+log likelihood: -541.71
+estimated fetal DNA fraction: 0.102997
+
+>>> The 5th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.35,0.26,0.19,0.2)
+Mean estimation of B allele freq.: u = (0,0.05,0.44,0.5)
+log likelihood: -541.71
+estimated fetal DNA fraction: 0.102997
+
+$f
+[1] 0.1029974
+
+$u
+[1] 0.00000000 0.05149869 0.43579737 0.49786269
+
+$pii
+[1] 0.3488372 0.2558140 0.1937984 0.2015504
+
+$Gn
+  [1] 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 4 4 1 4 3 1 1 1 4 4 1 4 3 3 3 2 4
+ [38] 3 2 2 2 1 1 3 2 2 4 2 2 2 2 4 1 3 2 4 4 1 1 2 2 2 2 3 1 2 3 2 1 1 4 4 4 2
+ [75] 2 3 1 1 4 4 3 3 3 2 2 2 4 1 2 3 2 3 2 2 3 4 3 1 3 2 4 1 3 4 4 2 1 4 2 2 1
+[112] 1 4 3 3 1 4 1 3 4 1 3 2 3 1 2 3 1 4
+
+$likelihood
+[1] -541.7093
+
+$iter
+[1] 4
+
+$nsnp
+[1] 129
+
+null device 
+          1 
+NULL
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/L80727-22-32.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-32.A4-SEA1-5396-U-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-32.A4-SEA1-5396-U-TN.sam -k 20180729_L80727-22-32.A4-SEA1-5396-U-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-32.A4-SEA1-5396-U-TN.log
+
+Done. Total elapsed time : 11s
+[1] 129   3
+>>> The 1th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.38,0.22,0.25,0.16)
+Mean estimation of B allele freq.: u = (0,0.06,0.44,0.5)
+log likelihood: -522.04
+estimated fetal DNA fraction: 0.110436
+
+>>> The 2th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.38,0.22,0.25,0.16)
+Mean estimation of B allele freq.: u = (0,0.06,0.44,0.5)
+log likelihood: -522.04
+estimated fetal DNA fraction: 0.110436
+
+$f
+[1] 0.110436
+
+$u
+[1] 5.800548e-05 5.521800e-02 4.385793e-01 5.036472e-01
+
+$pii
+[1] 0.3798450 0.2170543 0.2480620 0.1550388
+
+$Gn
+  [1] 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 1 3 2 1 3 4 3 2 4 3 1 3 3 2 2 1 3
+ [38] 1 3 4 2 1 3 3 2 4 4 1 3 2 2 1 3 3 1 4 1 2 1 2 3 2 2 4 2 1 1 2 1 4 2 3 2 2
+ [75] 3 3 1 4 4 1 1 1 3 2 1 1 4 4 4 1 1 3 3 4 3 2 1 1 1 2 4 3 4 1 3 2 4 3 2 1 3
+[112] 3 3 4 2 3 2 3 2 3 2 4 1 2 4 3 1 1 3
+
+$likelihood
+[1] -522.0408
+
+$iter
+[1] 1
+
+$nsnp
+[1] 129
+
+null device 
+          1 
+NULL
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/L80727-22-33.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-33.A4-SEA1-5396-U-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-33.A4-SEA1-5396-U-TN.sam -k 20180729_L80727-22-33.A4-SEA1-5396-U-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-33.A4-SEA1-5396-U-TN.log
+
+Done. Total elapsed time : 10s
+[1] 129   3
+>>> The 1th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.3,0.22,0.2,0.27)
+Mean estimation of B allele freq.: u = (0,0.03,0.46,0.5)
+log likelihood: -543.74
+estimated fetal DNA fraction: 0.054797
+
+>>> The 2th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.3,0.22,0.21,0.26)
+Mean estimation of B allele freq.: u = (0,0.03,0.46,0.5)
+log likelihood: -543.53
+estimated fetal DNA fraction: 0.054797
+
+>>> The 3th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.3,0.22,0.21,0.26)
+Mean estimation of B allele freq.: u = (0,0.03,0.46,0.5)
+log likelihood: -543.53
+estimated fetal DNA fraction: 0.054797
+
+$f
+[1] 0.0547971
+
+$u
+[1] 0.00000000 0.02739855 0.46124503 0.50059664
+
+$pii
+[1] 0.3023256 0.2248062 0.2093023 0.2635659
+
+$Gn
+  [1] 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4 4 2 3 3 3 2 2 3 1 1 2 3 4 2 1 4 3
+ [38] 3 4 4 4 3 4 1 1 4 4 3 3 1 2 1 2 2 4 4 2 3 1 3 4 2 2 3 1 2 3 1 4 4 3 2 3 4
+ [75] 2 4 3 4 3 2 4 2 1 2 1 2 2 2 4 3 1 3 2 2 2 3 3 2 1 4 1 4 2 1 1 4 3 1 4 4 2
+[112] 4 4 1 2 4 3 3 4 4 3 2 1 3 4 2 4 4 4
+
+$likelihood
+[1] -543.526
+
+$iter
+[1] 2
+
+$nsnp
+[1] 129
+
+null device 
+          1 
+NULL
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/L80727-22-34.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-34.A4-SEA1-5396-U-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-34.A4-SEA1-5396-U-TN.sam -k 20180729_L80727-22-34.A4-SEA1-5396-U-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-34.A4-SEA1-5396-U-TN.log
+
+Done. Total elapsed time : 9s
+[1] 129   3
+>>> The 1th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.36,0.19,0.31,0.13)
+Mean estimation of B allele freq.: u = (0,0.07,0.43,0.5)
+log likelihood: -524.23
+estimated fetal DNA fraction: 0.145047
+
+>>> The 2th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.36,0.19,0.29,0.16)
+Mean estimation of B allele freq.: u = (0,0.07,0.42,0.5)
+log likelihood: -521.33
+estimated fetal DNA fraction: 0.145047
+
+>>> The 3th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.36,0.19,0.27,0.17)
+Mean estimation of B allele freq.: u = (0,0.07,0.42,0.49)
+log likelihood: -520.15
+estimated fetal DNA fraction: 0.145047
+
+>>> The 4th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.36,0.19,0.26,0.18)
+Mean estimation of B allele freq.: u = (0,0.07,0.42,0.49)
+log likelihood: -519.88
+estimated fetal DNA fraction: 0.145047
+
+>>> The 5th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.36,0.19,0.26,0.19)
+Mean estimation of B allele freq.: u = (0,0.07,0.42,0.49)
+log likelihood: -519.85
+estimated fetal DNA fraction: 0.145047
+
+>>> The 6th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.36,0.19,0.26,0.19)
+Mean estimation of B allele freq.: u = (0,0.07,0.42,0.49)
+log likelihood: -519.85
+estimated fetal DNA fraction: 0.145047
+
+$f
+[1] 0.1450466
+
+$u
+[1] 0.00000000 0.07252329 0.41913420 0.49044906
+
+$pii
+[1] 0.3643411 0.1937984 0.2558140 0.1860465
+
+$Gn
+  [1] 1 1 1 1 1 1 1 1 1 1 4 1 1 1 1 1 1 1 1 2 1 3 1 2 4 4 4 3 4 4 3 1 3 4 2 4 2
+ [38] 2 2 4 3 3 3 1 2 3 3 2 1 1 2 1 4 1 2 1 2 3 3 3 3 3 2 1 1 2 1 1 4 1 2 4 4 3
+ [75] 2 2 1 2 3 4 3 1 1 2 3 4 1 2 3 4 3 3 3 1 2 4 3 4 2 1 1 1 1 3 4 1 4 4 3 3 1
+[112] 2 3 1 2 2 3 1 3 3 4 2 4 3 3 4 1 1 3
+
+$likelihood
+[1] -519.852
+
+$iter
+[1] 5
+
+$nsnp
+[1] 129
+
+null device 
+          1 
+NULL
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/L80727-22-35.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-35.A4-SEA1-5396-U-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-35.A4-SEA1-5396-U-TN.sam -k 20180729_L80727-22-35.A4-SEA1-5396-U-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-35.A4-SEA1-5396-U-TN.log
+
+Done. Total elapsed time : 12s
+[1] 129   3
+>>> The 1th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.37,0.25,0.18,0.2)
+Mean estimation of B allele freq.: u = (0,0.04,0.45,0.5)
+log likelihood: -530.26
+estimated fetal DNA fraction: 0.073448
+
+>>> The 2th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.37,0.25,0.18,0.2)
+Mean estimation of B allele freq.: u = (0,0.04,0.45,0.5)
+log likelihood: -530.26
+estimated fetal DNA fraction: 0.073448
+
+$f
+[1] 0.07344782
+
+$u
+[1] 2.338388e-05 3.672391e-02 4.511154e-01 4.993796e-01
+
+$pii
+[1] 0.3720930 0.2480620 0.1782946 0.2015504
+
+$Gn
+  [1] 1 1 3 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4 4 4 2 3 3 2 1 2 4 4 4 2 4 2 2 2 4
+ [38] 4 1 3 2 1 2 2 2 1 1 1 2 4 3 1 3 3 1 2 4 2 1 4 2 2 1 2 3 2 2 4 1 1 2 3 2 3
+ [75] 1 4 3 3 4 3 1 2 2 2 1 1 3 1 1 1 1 2 4 2 2 4 4 2 2 3 1 4 3 1 4 4 1 2 3 1 1
+[112] 2 4 1 1 3 3 4 1 1 3 3 1 4 3 4 2 4 3
+
+$likelihood
+[1] -530.2595
+
+$iter
+[1] 1
+
+$nsnp
+[1] 129
+
+null device 
+          1 
+NULL
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/L80727-22-36.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-36.A4-SEA1-5396-U-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-36.A4-SEA1-5396-U-TN.sam -k 20180729_L80727-22-36.A4-SEA1-5396-U-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-36.A4-SEA1-5396-U-TN.log
+
+Done. Total elapsed time : 14s
+[1] 129   3
+>>> The 1th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.43,0.16,0.15,0.26)
+Mean estimation of B allele freq.: u = (0,0.02,0.46,0.5)
+log likelihood: -480.07
+estimated fetal DNA fraction: 0.046489
+
+>>> The 2th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.43,0.16,0.16,0.25)
+Mean estimation of B allele freq.: u = (0,0.02,0.46,0.5)
+log likelihood: -479.91
+estimated fetal DNA fraction: 0.046489
+
+>>> The 3th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.43,0.16,0.16,0.25)
+Mean estimation of B allele freq.: u = (0,0.02,0.46,0.5)
+log likelihood: -479.91
+estimated fetal DNA fraction: 0.046489
+
+$f
+[1] 0.04648896
+
+$u
+[1] 3.781397e-05 2.324448e-02 4.595963e-01 5.023855e-01
+
+$pii
+[1] 0.4341085 0.1627907 0.1550388 0.2480620
+
+$Gn
+  [1] 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4 1 2 4 4 3 1 2 4 1 1 1 4 2 2 4 2 2
+ [38] 1 1 1 2 4 3 1 1 1 1 2 4 1 1 1 3 4 3 4 3 4 4 3 1 1 2 3 1 2 4 1 4 1 1 1 2 4
+ [75] 3 4 1 4 2 3 3 4 2 3 2 3 1 1 4 3 2 1 3 4 4 1 2 4 2 3 4 1 3 4 1 3 1 3 2 1 1
+[112] 3 2 1 4 1 4 4 2 4 1 4 2 1 3 4 4 1 4
+
+$likelihood
+[1] -479.9057
+
+$iter
+[1] 2
+
+$nsnp
+[1] 129
+
+null device 
+          1 
+NULL
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/L80727-22-37.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-37.A4-SEA1-5396-U-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-37.A4-SEA1-5396-U-TN.sam -k 20180729_L80727-22-37.A4-SEA1-5396-U-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-37.A4-SEA1-5396-U-TN.log
+
+Done. Total elapsed time : 11s
+[1] 129   3
+>>> The 1th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.35,0.26,0.26,0.13)
+Mean estimation of B allele freq.: u = (0,0.04,0.45,0.5)
+log likelihood: -550.17
+estimated fetal DNA fraction: 0.080295
+
+>>> The 2th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.35,0.26,0.26,0.12)
+Mean estimation of B allele freq.: u = (0,0.04,0.45,0.5)
+log likelihood: -550.22
+estimated fetal DNA fraction: 0.080295
+
+$f
+[1] 0.08029484
+
+$u
+[1] 0.00000000 0.04014742 0.44936220 0.50362393
+
+$pii
+[1] 0.3488372 0.2635659 0.2558140 0.1317829
+
+$Gn
+  [1] 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 3 2 3 2 3 1 4 4 2 2 3 2 1 1 2 2 1
+ [38] 3 4 1 3 2 2 1 3 2 2 2 1 4 2 2 3 4 4 3 2 4 3 2 2 3 2 4 2 2 3 3 1 1 2 3 1 1
+ [75] 2 2 4 4 1 3 1 1 2 4 1 1 2 2 2 3 1 1 1 1 4 3 3 1 3 1 3 3 4 3 3 2 1 3 3 2 4
+[112] 3 3 2 1 4 1 2 2 3 3 3 1 3 2 3 4 2 4
+
+$likelihood
+[1] -550.1711
+
+$iter
+[1] 1
+
+$nsnp
+[1] 129
+
+null device 
+          1 
+NULL
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/L80727-22-38.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-38.A4-SEA1-5396-U-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-38.A4-SEA1-5396-U-TN.sam -k 20180729_L80727-22-38.A4-SEA1-5396-U-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-38.A4-SEA1-5396-U-TN.log
+
+Done. Total elapsed time : 14s
+[1] 129   3
+>>> The 1th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.35,0.2,0.31,0.14)
+Mean estimation of B allele freq.: u = (0,0.04,0.44,0.51)
+log likelihood: -606.95
+estimated fetal DNA fraction: 0.085893
+
+>>> The 2th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.35,0.2,0.3,0.15)
+Mean estimation of B allele freq.: u = (0,0.04,0.44,0.5)
+log likelihood: -606.66
+estimated fetal DNA fraction: 0.085893
+
+>>> The 3th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.35,0.2,0.3,0.15)
+Mean estimation of B allele freq.: u = (0,0.04,0.44,0.5)
+log likelihood: -606.66
+estimated fetal DNA fraction: 0.085893
+
+$f
+[1] 0.08589335
+
+$u
+[1] 0.00000000 0.04294668 0.43614784 0.50352484
+
+$pii
+[1] 0.3488372 0.2015504 0.3023256 0.1472868
+
+$Gn
+  [1] 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 3 1 4 2 3 3 2 1 1 1 2 1 3 1 2 3 3
+ [38] 4 2 2 4 2 4 3 4 1 3 3 4 1 1 3 1 3 4 2 1 4 1 3 4 1 2 3 2 2 3 4 2 2 3 4 3 3
+ [75] 2 1 4 1 4 1 3 4 3 3 2 3 2 3 3 3 2 4 4 2 4 1 3 3 2 1 4 2 1 3 3 2 3 2 2 1 1
+[112] 2 3 3 3 3 2 1 3 2 1 3 4 1 1 3 1 3 3
+
+$likelihood
+[1] -606.6615
+
+$iter
+[1] 2
+
+$nsnp
+[1] 129
+
+null device 
+          1 
+NULL
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/L80727-22-39.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-39.A4-SEA1-5396-U-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-39.A4-SEA1-5396-U-TN.sam -k 20180729_L80727-22-39.A4-SEA1-5396-U-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-39.A4-SEA1-5396-U-TN.log
+
+Done. Total elapsed time : 8s
+[1] 129   3
+>>> The 1th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.36,0.19,0.26,0.19)
+Mean estimation of B allele freq.: u = (0,0.04,0.45,0.51)
+log likelihood: -497.65
+estimated fetal DNA fraction: 0.079291
+
+>>> The 2th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.36,0.19,0.27,0.18)
+Mean estimation of B allele freq.: u = (0,0.04,0.45,0.51)
+log likelihood: -497.66
+estimated fetal DNA fraction: 0.079291
+
+$f
+[1] 0.07929144
+
+$u
+[1] 0.0001010662 0.0396457191 0.4534204055 0.5066712282
+
+$pii
+[1] 0.3565891 0.1937984 0.2635659 0.1860465
+
+$Gn
+  [1] 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 4 1 3 1 1 1 4 4 3 4 1 2 3 2 1
+ [38] 3 3 4 1 1 4 1 4 1 3 1 3 3 4 2 3 2 1 4 3 2 2 4 3 3 1 1 3 2 4 3 4 1 4 2 3 4
+ [75] 3 2 2 1 3 1 4 1 2 4 3 3 3 2 2 4 3 4 4 3 2 1 3 4 3 3 4 1 1 3 2 2 2 2 2 1 3
+[112] 4 1 2 3 2 2 1 2 3 3 3 1 4 3 1 3 4 3
+
+$likelihood
+[1] -497.6495
+
+$iter
+[1] 1
+
+$nsnp
+[1] 129
+
+null device 
+          1 
+NULL
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/L80727-22-40.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-40.A4-SEA1-5396-U-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-40.A4-SEA1-5396-U-TN.sam -k 20180729_L80727-22-40.A4-SEA1-5396-U-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-40.A4-SEA1-5396-U-TN.log
+
+Done. Total elapsed time : 12s
+[1] 129   3
+>>> The 1th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.45,0.23,0.17,0.15)
+Mean estimation of B allele freq.: u = (0,0.04,0.44,0.5)
+log likelihood: -579.85
+estimated fetal DNA fraction: 0.078984
+
+>>> The 2th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.45,0.23,0.16,0.16)
+Mean estimation of B allele freq.: u = (0,0.04,0.44,0.49)
+log likelihood: -575.10
+estimated fetal DNA fraction: 0.078984
+
+>>> The 3th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.45,0.23,0.12,0.19)
+Mean estimation of B allele freq.: u = (0,0.04,0.43,0.49)
+log likelihood: -566.24
+estimated fetal DNA fraction: 0.078984
+
+>>> The 4th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.45,0.23,0.09,0.23)
+Mean estimation of B allele freq.: u = (0,0.04,0.41,0.49)
+log likelihood: -555.16
+estimated fetal DNA fraction: 0.078984
+
+>>> The 5th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.45,0.23,0.08,0.24)
+Mean estimation of B allele freq.: u = (0,0.04,0.41,0.48)
+log likelihood: -553.27
+estimated fetal DNA fraction: 0.078984
+
+>>> The 6th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.45,0.23,0.07,0.25)
+Mean estimation of B allele freq.: u = (0,0.04,0.4,0.48)
+log likelihood: -551.19
+estimated fetal DNA fraction: 0.078984
+
+>>> The 7th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.45,0.23,0.06,0.26)
+Mean estimation of B allele freq.: u = (0,0.04,0.39,0.48)
+log likelihood: -549.77
+estimated fetal DNA fraction: 0.078984
+
+>>> The 8th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.45,0.23,0.05,0.26)
+Mean estimation of B allele freq.: u = (0,0.04,0.39,0.48)
+log likelihood: -547.56
+estimated fetal DNA fraction: 0.078984
+
+>>> The 9th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.45,0.23,0.03,0.29)
+Mean estimation of B allele freq.: u = (0,0.04,0.36,0.48)
+log likelihood: -532.75
+estimated fetal DNA fraction: 0.078984
+
+>>> The 10th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.45,0.23,0.02,0.29)
+Mean estimation of B allele freq.: u = (0,0.04,0.33,0.48)
+log likelihood: -528.38
+estimated fetal DNA fraction: 0.078984
+
+>>> The 11th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.45,0.23,0.02,0.29)
+Mean estimation of B allele freq.: u = (0,0.04,0.33,0.48)
+log likelihood: -528.38
+estimated fetal DNA fraction: 0.078984
+
+$f
+[1] 0.07898418
+
+$u
+[1] 2.202207e-05 3.949209e-02 3.325688e-01 4.751762e-01
+
+$pii
+[1] 0.44961240 0.23255814 0.02325581 0.29457364
+
+$Gn
+  [1] 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 1 1 1 1 4 2 3 4 4 4 4 4 2 1 1 2 2 1 1 1 2 2
+ [38] 2 1 1 4 4 1 3 4 4 2 2 1 4 4 2 2 4 4 1 1 4 4 4 2 4 1 2 1 2 1 1 2 1 4 1 2 1
+ [75] 1 2 1 1 2 1 1 1 4 1 4 1 2 1 4 2 4 1 2 4 4 1 4 1 4 2 2 2 2 1 1 1 2 4 4 1 1
+[112] 4 4 3 4 1 1 4 4 2 1 4 2 1 1 4 4 2 4
+
+$likelihood
+[1] -528.3804
+
+$iter
+[1] 10
+
+$nsnp
+[1] 129
+
+null device 
+          1 
+NULL
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/L80727-22-41.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-41.A4-SEA1-5396-U-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-41.A4-SEA1-5396-U-TN.sam -k 20180729_L80727-22-41.A4-SEA1-5396-U-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-41.A4-SEA1-5396-U-TN.log
+
+Done. Total elapsed time : 14s
+[1] 129   3
+>>> The 1th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.31,0.16,0.33,0.2)
+Mean estimation of B allele freq.: u = (0,0.05,0.43,0.5)
+log likelihood: -676.59
+estimated fetal DNA fraction: 0.092613
+
+>>> The 2th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.31,0.16,0.3,0.22)
+Mean estimation of B allele freq.: u = (0,0.05,0.43,0.5)
+log likelihood: -674.97
+estimated fetal DNA fraction: 0.092613
+
+>>> The 3th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.31,0.16,0.3,0.22)
+Mean estimation of B allele freq.: u = (0,0.05,0.43,0.5)
+log likelihood: -674.97
+estimated fetal DNA fraction: 0.092613
+
+$f
+[1] 0.09261336
+
+$u
+[1] 1.079319e-05 4.630668e-02 4.322737e-01 4.972402e-01
+
+$pii
+[1] 0.3100775 0.1627907 0.3023256 0.2248062
+
+$Gn
+  [1] 1 1 1 1 1 1 1 1 1 1 4 1 1 1 1 1 1 1 1 3 4 1 1 1 4 3 1 4 3 4 4 2 3 3 4 2 4
+ [38] 1 3 2 4 2 1 3 3 1 3 3 2 2 3 3 1 3 1 4 3 4 3 3 3 4 2 1 1 2 1 4 3 3 3 3 3 3
+ [75] 2 4 3 3 2 3 4 2 3 3 4 4 3 1 4 1 4 3 3 1 2 4 1 4 3 1 2 1 2 4 2 1 1 4 3 4 4
+[112] 3 1 3 2 2 3 2 1 2 4 4 4 3 4 2 2 3 3
+
+$likelihood
+[1] -674.9732
+
+$iter
+[1] 2
+
+$nsnp
+[1] 129
+
+null device 
+          1 
+NULL
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/L80727-22-42.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-42.A4-SEA1-5396-U-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-42.A4-SEA1-5396-U-TN.sam -k 20180729_L80727-22-42.A4-SEA1-5396-U-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-42.A4-SEA1-5396-U-TN.log
+
+Done. Total elapsed time : 12s
+[1] 128   3
+>>> The 1th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.31,0.28,0.18,0.23)
+Mean estimation of B allele freq.: u = (0,0.04,0.46,0.5)
+log likelihood: -552.13
+estimated fetal DNA fraction: 0.071371
+
+>>> The 2th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.31,0.28,0.19,0.22)
+Mean estimation of B allele freq.: u = (0,0.04,0.46,0.5)
+log likelihood: -552.00
+estimated fetal DNA fraction: 0.071371
+
+>>> The 3th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.31,0.28,0.19,0.22)
+Mean estimation of B allele freq.: u = (0,0.04,0.46,0.5)
+log likelihood: -552.00
+estimated fetal DNA fraction: 0.071371
+
+$f
+[1] 0.07137144
+
+$u
+[1] 4.315553e-05 3.568572e-02 4.583102e-01 5.027885e-01
+
+$pii
+[1] 0.31250 0.28125 0.18750 0.21875
+
+$Gn
+  [1] 1 1 1 4 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 3 2 1 4 3 3 2 2 2 2 1 3 2 2 4 3 1
+ [38] 1 3 1 2 4 4 2 2 1 3 2 1 4 2 4 1 2 3 2 2 3 2 2 4 2 3 3 4 2 2 4 4 4 4 4 4 2
+ [75] 3 1 2 1 2 1 3 1 1 3 4 4 2 1 2 2 3 2 3 1 1 3 2 1 2 4 4 3 4 4 4 2 2 4 4 2 2
+[112] 4 4 2 2 1 1 3 3 1 3 2 4 4 1 3 3 1
+
+$likelihood
+[1] -552.0026
+
+$iter
+[1] 2
+
+$nsnp
+[1] 128
+
+null device 
+          1 
+NULL
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/L80727-22-43.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-43.A4-SEA1-5396-U-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-43.A4-SEA1-5396-U-TN.sam -k 20180729_L80727-22-43.A4-SEA1-5396-U-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-43.A4-SEA1-5396-U-TN.log
+
+Done. Total elapsed time : 12s
+[1] 129   3
+>>> The 1th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.37,0.16,0.21,0.26)
+Mean estimation of B allele freq.: u = (0,0.04,0.45,0.5)
+log likelihood: -545.76
+estimated fetal DNA fraction: 0.084939
+
+>>> The 2th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.37,0.16,0.21,0.26)
+Mean estimation of B allele freq.: u = (0,0.04,0.45,0.5)
+log likelihood: -545.76
+estimated fetal DNA fraction: 0.084939
+
+$f
+[1] 0.08493918
+
+$u
+[1] 2.581445e-05 4.246959e-02 4.537740e-01 5.018064e-01
+
+$pii
+[1] 0.3720930 0.1627907 0.2093023 0.2558140
+
+$Gn
+  [1] 1 1 1 1 1 3 1 1 1 1 1 1 1 1 1 1 1 1 1 3 2 3 2 4 2 4 4 4 4 4 1 2 4 2 4 3 1
+ [38] 3 2 4 1 3 3 1 4 3 2 3 4 4 2 4 3 4 4 4 3 3 3 2 1 3 2 1 2 2 1 2 2 3 1 3 4 3
+ [75] 1 4 4 2 1 1 1 1 3 4 1 2 1 2 3 1 1 1 4 1 1 4 4 2 2 4 1 4 1 1 2 1 4 4 4 1 3
+[112] 1 3 1 3 3 1 4 3 2 1 3 4 1 4 3 4 4 3
+
+$likelihood
+[1] -545.7623
+
+$iter
+[1] 1
+
+$nsnp
+[1] 129
+
+null device 
+          1 
+NULL
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/L80727-22-44.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-44.A4-SEA1-5396-U-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-44.A4-SEA1-5396-U-TN.sam -k 20180729_L80727-22-44.A4-SEA1-5396-U-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-44.A4-SEA1-5396-U-TN.log
+
+Done. Total elapsed time : 13s
+[1] 129   3
+>>> The 1th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.48,0.18,0.18,0.16)
+Mean estimation of B allele freq.: u = (0,0.07,0.44,0.5)
+log likelihood: -483.18
+estimated fetal DNA fraction: 0.132521
+
+>>> The 2th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.49,0.17,0.17,0.17)
+Mean estimation of B allele freq.: u = (0,0.07,0.44,0.5)
+log likelihood: -481.38
+estimated fetal DNA fraction: 0.134587
+
+>>> The 3th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.49,0.17,0.17,0.17)
+Mean estimation of B allele freq.: u = (0,0.07,0.44,0.5)
+log likelihood: -481.38
+estimated fetal DNA fraction: 0.134587
+
+$f
+[1] 0.1345865
+
+$u
+[1] 0.0000699909 0.0672932707 0.4350282486 0.5009915427
+
+$pii
+[1] 0.4883721 0.1705426 0.1705426 0.1705426
+
+$Gn
+  [1] 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 1 1 2 3 2 1 1 1 1 1 1 3 2 3 2 2
+ [38] 1 1 1 1 1 3 3 1 4 4 2 1 1 4 3 4 4 2 4 1 2 3 3 2 1 4 4 1 1 2 2 3 1 4 1 4 1
+ [75] 1 4 1 1 1 4 4 3 4 4 4 4 1 3 1 1 4 2 2 1 2 3 1 3 2 1 3 4 3 1 3 1 1 2 1 4 2
+[112] 2 2 4 3 1 1 4 1 3 2 3 1 1 3 1 3 2 3
+
+$likelihood
+[1] -481.3769
+
+$iter
+[1] 2
+
+$nsnp
+[1] 129
+
+null device 
+          1 
+NULL
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/L80727-22-45.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-45.A4-SEA1-5396-U-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-45.A4-SEA1-5396-U-TN.sam -k 20180729_L80727-22-45.A4-SEA1-5396-U-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-45.A4-SEA1-5396-U-TN.log
+
+Done. Total elapsed time : 12s
+[1] 129   3
+>>> The 1th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.42,0.2,0.27,0.11)
+Mean estimation of B allele freq.: u = (0,0.05,0.44,0.5)
+log likelihood: -504.00
+estimated fetal DNA fraction: 0.091641
+
+>>> The 2th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.42,0.2,0.27,0.11)
+Mean estimation of B allele freq.: u = (0,0.05,0.44,0.5)
+log likelihood: -504.00
+estimated fetal DNA fraction: 0.091641
+
+$f
+[1] 0.0916405
+
+$u
+[1] 1.450432e-05 4.582025e-02 4.422079e-01 5.044510e-01
+
+$pii
+[1] 0.4186047 0.2015504 0.2713178 0.1085271
+
+$Gn
+  [1] 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 3 1 4 1 1 2 2 1 1 2 3 1 2 1 1 4
+ [38] 2 1 2 3 3 2 3 4 3 4 1 3 2 1 4 2 1 3 4 1 3 1 3 3 3 3 1 4 2 2 3 4 3 4 2 3 1
+ [75] 3 1 2 1 3 2 3 3 1 3 1 2 3 4 3 2 1 3 4 3 2 3 3 2 1 2 3 1 2 1 1 3 1 2 1 2 2
+[112] 1 3 1 3 1 4 3 1 3 2 1 2 4 4 1 3 1 3
+
+$likelihood
+[1] -503.9975
+
+$iter
+[1] 1
+
+$nsnp
+[1] 129
+
+null device 
+          1 
+NULL
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/L80727-22-46.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-46.A4-SEA1-5396-U-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-46.A4-SEA1-5396-U-TN.sam -k 20180729_L80727-22-46.A4-SEA1-5396-U-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-46.A4-SEA1-5396-U-TN.log
+
+Done. Total elapsed time : 10s
+[1] 129   3
+>>> The 1th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.36,0.16,0.16,0.33)
+Mean estimation of B allele freq.: u = (0,0.03,0.46,0.5)
+log likelihood: -494.73
+estimated fetal DNA fraction: 0.050189
+
+>>> The 2th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.36,0.16,0.14,0.34)
+Mean estimation of B allele freq.: u = (0,0.03,0.46,0.5)
+log likelihood: -494.61
+estimated fetal DNA fraction: 0.050189
+
+>>> The 3th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.36,0.16,0.14,0.34)
+Mean estimation of B allele freq.: u = (0,0.03,0.46,0.5)
+log likelihood: -494.61
+estimated fetal DNA fraction: 0.050189
+
+$f
+[1] 0.05018876
+
+$u
+[1] 1.824818e-05 2.509438e-02 4.574644e-01 4.995784e-01
+
+$pii
+[1] 0.3565891 0.1627907 0.1395349 0.3410853
+
+$Gn
+  [1] 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 1 1 2 2 1 4 4 4 4 3 1 4 1 4 4 2 4
+ [38] 3 2 3 4 3 2 2 4 1 4 2 3 3 2 2 1 4 4 4 2 2 3 4 1 2 1 3 1 2 1 1 4 3 4 1 4 4
+ [75] 4 4 3 3 1 4 4 4 2 4 4 2 4 2 3 4 3 1 3 1 3 4 4 2 4 1 4 1 1 1 1 1 2 4 4 4 2
+[112] 4 4 4 4 1 1 4 4 1 3 2 1 4 4 3 1 4 3
+
+$likelihood
+[1] -494.6073
+
+$iter
+[1] 2
+
+$nsnp
+[1] 129
+
+null device 
+          1 
+NULL
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/L80727-22-47.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-47.A4-SEA1-5396-U-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-47.A4-SEA1-5396-U-TN.sam -k 20180729_L80727-22-47.A4-SEA1-5396-U-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-47.A4-SEA1-5396-U-TN.log
+
+Done. Total elapsed time : 12s
+[1] 128   3
+>>> The 1th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.3,0.22,0.29,0.19)
+Mean estimation of B allele freq.: u = (0,0.06,0.43,0.5)
+log likelihood: -629.38
+estimated fetal DNA fraction: 0.117740
+
+>>> The 2th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.3,0.22,0.27,0.2)
+Mean estimation of B allele freq.: u = (0,0.06,0.43,0.5)
+log likelihood: -628.24
+estimated fetal DNA fraction: 0.117740
+
+>>> The 3th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.3,0.22,0.27,0.21)
+Mean estimation of B allele freq.: u = (0,0.06,0.43,0.5)
+log likelihood: -628.09
+estimated fetal DNA fraction: 0.117740
+
+>>> The 4th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.3,0.22,0.27,0.21)
+Mean estimation of B allele freq.: u = (0,0.06,0.43,0.5)
+log likelihood: -628.09
+estimated fetal DNA fraction: 0.117740
+
+$f
+[1] 0.1177396
+
+$u
+[1] 0.0000000 0.0588698 0.4318286 0.4984847
+
+$pii
+[1] 0.3046875 0.2187500 0.2656250 0.2109375
+
+$Gn
+  [1] 1 1 1 1 1 1 1 1 1 1 4 1 1 1 1 1 1 3 1 2 3 2 3 1 2 2 2 1 3 3 3 3 2 2 1 2 2
+ [38] 4 2 4 4 1 3 3 4 3 3 4 2 3 4 3 2 1 4 1 3 4 3 4 1 2 4 4 3 2 4 1 2 3 2 1 3 3
+ [75] 3 4 1 1 2 1 1 2 2 1 4 4 3 4 1 2 4 2 1 3 2 3 1 4 2 3 4 1 1 4 3 4 3 3 3 3 2
+[112] 3 4 3 1 2 3 1 3 4 3 1 2 2 4 4 2 4
+
+$likelihood
+[1] -628.0898
+
+$iter
+[1] 3
+
+$nsnp
+[1] 128
+
+null device 
+          1 
+NULL
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/L80727-22-48.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-48.A4-SEA1-5396-U-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-48.A4-SEA1-5396-U-TN.sam -k 20180729_L80727-22-48.A4-SEA1-5396-U-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-48.A4-SEA1-5396-U-TN.log
+
+Done. Total elapsed time : 16s
+[1] 128   3
+>>> The 1th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.34,0.23,0.23,0.2)
+Mean estimation of B allele freq.: u = (0,0.04,0.45,0.5)
+log likelihood: -564.66
+estimated fetal DNA fraction: 0.070991
+
+>>> The 2th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.34,0.23,0.24,0.2)
+Mean estimation of B allele freq.: u = (0,0.04,0.45,0.5)
+log likelihood: -564.62
+estimated fetal DNA fraction: 0.070991
+
+>>> The 3th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.34,0.23,0.25,0.19)
+Mean estimation of B allele freq.: u = (0,0.04,0.45,0.5)
+log likelihood: -564.65
+estimated fetal DNA fraction: 0.070991
+
+$f
+[1] 0.0709908
+
+$u
+[1] 0.0000451345 0.0354953984 0.4539077255 0.4981382621
+
+$pii
+[1] 0.3359375 0.2265625 0.2421875 0.1953125
+
+$Gn
+  [1] 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4 3 4 3 2 4 4 2 4 2 2 4 2 3 3 2 3 3
+ [38] 4 2 4 2 3 3 1 3 2 1 1 4 1 4 4 2 1 2 3 2 1 2 3 3 1 1 2 3 2 3 2 3 2 3 1 4 3
+ [75] 1 3 1 3 1 4 2 4 3 1 1 2 4 2 1 3 1 3 1 2 4 4 4 3 4 2 1 4 3 3 2 2 1 3 4 1 2
+[112] 4 2 3 1 3 1 3 2 2 3 2 1 1 4 4 4 3
+
+$likelihood
+[1] -564.6174
+
+$iter
+[1] 2
+
+$nsnp
+[1] 128
+
+null device 
+          1 
+NULL
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/L80727-22-49.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-49.A4-SEA1-5396-U-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-49.A4-SEA1-5396-U-TN.sam -k 20180729_L80727-22-49.A4-SEA1-5396-U-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-49.A4-SEA1-5396-U-TN.log
+
+Done. Total elapsed time : 17s
+[1] 129   3
+>>> The 1th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.39,0.19,0.26,0.17)
+Mean estimation of B allele freq.: u = (0,0.05,0.43,0.5)
+log likelihood: -710.97
+estimated fetal DNA fraction: 0.107321
+
+>>> The 2th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.39,0.19,0.23,0.19)
+Mean estimation of B allele freq.: u = (0,0.05,0.43,0.5)
+log likelihood: -703.27
+estimated fetal DNA fraction: 0.107321
+
+>>> The 3th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.39,0.19,0.22,0.2)
+Mean estimation of B allele freq.: u = (0,0.05,0.42,0.5)
+log likelihood: -702.39
+estimated fetal DNA fraction: 0.107321
+
+>>> The 4th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.39,0.19,0.22,0.2)
+Mean estimation of B allele freq.: u = (0,0.05,0.42,0.5)
+log likelihood: -702.39
+estimated fetal DNA fraction: 0.107321
+
+$f
+[1] 0.1073209
+
+$u
+[1] 4.064115e-05 5.366043e-02 4.245465e-01 4.976285e-01
+
+$pii
+[1] 0.3875969 0.1860465 0.2248062 0.2015504
+
+$Gn
+  [1] 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 1 4 3 4 3 4 1 3 1 1 1 2 4 1 3 1 1
+ [38] 3 4 2 2 3 4 3 3 1 2 3 4 3 1 2 4 1 1 4 4 1 4 3 4 3 4 1 4 2 2 1 4 1 4 2 2 4
+ [75] 3 3 2 3 1 1 2 1 2 3 2 3 2 1 4 1 2 2 1 2 2 4 2 2 3 3 3 4 2 1 3 2 4 1 4 4 4
+[112] 1 3 3 2 1 4 1 3 3 3 3 1 1 1 1 4 2 3
+
+$likelihood
+[1] -702.3859
+
+$iter
+[1] 3
+
+$nsnp
+[1] 129
+
+null device 
+          1 
+NULL
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/L80727-22-50.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-50.A4-SEA1-5396-U-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-50.A4-SEA1-5396-U-TN.sam -k 20180729_L80727-22-50.A4-SEA1-5396-U-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-50.A4-SEA1-5396-U-TN.log
+
+Done. Total elapsed time : 15s
+[1] 129   3
+>>> The 1th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.34,0.25,0.12,0.29)
+Mean estimation of B allele freq.: u = (0,0.03,0.45,0.5)
+log likelihood: -572.44
+estimated fetal DNA fraction: 0.051356
+
+>>> The 2th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.34,0.25,0.12,0.29)
+Mean estimation of B allele freq.: u = (0,0.03,0.45,0.5)
+log likelihood: -571.95
+estimated fetal DNA fraction: 0.051356
+
+>>> The 3th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.34,0.25,0.1,0.31)
+Mean estimation of B allele freq.: u = (0,0.03,0.44,0.5)
+log likelihood: -571.54
+estimated fetal DNA fraction: 0.051356
+
+>>> The 4th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.34,0.25,0.09,0.32)
+Mean estimation of B allele freq.: u = (0,0.03,0.44,0.5)
+log likelihood: -571.61
+estimated fetal DNA fraction: 0.051356
+
+$f
+[1] 0.05135564
+
+$u
+[1] 1.042351e-05 2.567782e-02 4.440676e-01 5.004869e-01
+
+$pii
+[1] 0.3410853 0.2480620 0.1007752 0.3100775
+
+$Gn
+  [1] 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4 2 2 2 4 4 4 1 2 2 4 4 2 4 1 4 4
+ [38] 2 3 4 4 2 2 3 2 1 3 1 1 4 1 1 2 1 2 2 4 1 1 4 2 4 3 2 2 2 1 4 1 4 1 4 2 3
+ [75] 2 4 4 4 1 4 2 4 4 1 4 4 2 1 3 2 3 1 4 3 2 1 3 2 4 2 4 1 4 2 2 4 3 4 2 4 3
+[112] 4 2 4 4 4 3 1 1 2 4 2 2 1 4 1 3 1 4
+
+$likelihood
+[1] -571.5366
+
+$iter
+[1] 3
+
+$nsnp
+[1] 129
+
+null device 
+          1 
+NULL
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/L80727-22-51.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-51.A4-SEA1-5396-U-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-51.A4-SEA1-5396-U-TN.sam -k 20180729_L80727-22-51.A4-SEA1-5396-U-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-51.A4-SEA1-5396-U-TN.log
+
+Done. Total elapsed time : 14s
+[1] 129   3
+>>> The 1th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.33,0.21,0.25,0.22)
+Mean estimation of B allele freq.: u = (0,0.09,0.42,0.5)
+log likelihood: -716.93
+estimated fetal DNA fraction: 0.170572
+
+>>> The 2th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.33,0.21,0.2,0.26)
+Mean estimation of B allele freq.: u = (0,0.09,0.4,0.49)
+log likelihood: -696.18
+estimated fetal DNA fraction: 0.170572
+
+>>> The 3th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.33,0.21,0.2,0.26)
+Mean estimation of B allele freq.: u = (0,0.09,0.4,0.49)
+log likelihood: -696.18
+estimated fetal DNA fraction: 0.170572
+
+$f
+[1] 0.1705719
+
+$u
+[1] 0.0000211249 0.0852859602 0.4013942988 0.4921765120
+
+$pii
+[1] 0.3255814 0.2093023 0.2015504 0.2635659
+
+$Gn
+  [1] 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4 4 2 1 3 3 3 1 3 3 2 2 4 3 2 2 1
+ [38] 2 1 2 4 1 4 2 2 4 4 2 1 3 3 4 2 1 4 4 1 4 1 3 2 3 2 4 2 2 3 3 3 4 2 1 3 3
+ [75] 4 1 3 1 4 1 1 3 4 4 4 2 2 3 3 2 4 2 1 2 1 1 4 1 4 3 3 4 4 1 4 4 2 4 1 3 3
+[112] 4 4 2 2 2 4 3 4 2 1 4 1 2 3 4 4 3 4
+
+$likelihood
+[1] -696.1825
+
+$iter
+[1] 2
+
+$nsnp
+[1] 129
+
+null device 
+          1 
+NULL
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/L80727-22-52.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-52.A4-SEA1-5396-U-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-52.A4-SEA1-5396-U-TN.sam -k 20180729_L80727-22-52.A4-SEA1-5396-U-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-52.A4-SEA1-5396-U-TN.log
+
+Done. Total elapsed time : 12s
+[1] 129   3
+>>> The 1th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.33,0.23,0.23,0.2)
+Mean estimation of B allele freq.: u = (0,0.03,0.46,0.5)
+log likelihood: -556.93
+estimated fetal DNA fraction: 0.064985
+
+>>> The 2th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.33,0.23,0.23,0.2)
+Mean estimation of B allele freq.: u = (0,0.03,0.46,0.5)
+log likelihood: -556.93
+estimated fetal DNA fraction: 0.064985
+
+$f
+[1] 0.06498518
+
+$u
+[1] 0.00000000 0.03249259 0.45609811 0.50018297
+
+$pii
+[1] 0.3333333 0.2325581 0.2325581 0.2015504
+
+$Gn
+  [1] 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 3 4 2 4 2 2 1 4 1 1 3 1 3 3 2 3 4
+ [38] 2 3 2 4 1 4 1 3 1 2 2 4 2 4 3 1 3 4 2 2 3 1 2 1 4 2 2 2 2 3 2 1 3 3 3 2 3
+ [75] 1 2 3 3 1 1 4 4 4 4 2 4 2 2 1 2 1 1 2 3 3 4 3 1 4 3 3 3 3 2 1 4 4 4 4 3 2
+[112] 1 2 3 3 2 4 1 1 1 1 3 3 4 4 4 4 2 3
+
+$likelihood
+[1] -556.9317
+
+$iter
+[1] 1
+
+$nsnp
+[1] 129
+
+null device 
+          1 
+NULL
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/L80727-22-53.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-53.A4-SEA1-5396-U-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-53.A4-SEA1-5396-U-TN.sam -k 20180729_L80727-22-53.A4-SEA1-5396-U-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-53.A4-SEA1-5396-U-TN.log
+
+Done. Total elapsed time : 11s
+[1] 129   3
+>>> The 1th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.34,0.18,0.27,0.21)
+Mean estimation of B allele freq.: u = (0,0.05,0.44,0.5)
+log likelihood: -571.51
+estimated fetal DNA fraction: 0.102232
+
+>>> The 2th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.34,0.18,0.23,0.25)
+Mean estimation of B allele freq.: u = (0,0.05,0.43,0.49)
+log likelihood: -568.22
+estimated fetal DNA fraction: 0.102232
+
+>>> The 3th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.34,0.18,0.22,0.26)
+Mean estimation of B allele freq.: u = (0,0.05,0.43,0.49)
+log likelihood: -567.84
+estimated fetal DNA fraction: 0.102232
+
+>>> The 4th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.34,0.18,0.22,0.26)
+Mean estimation of B allele freq.: u = (0,0.05,0.43,0.49)
+log likelihood: -567.84
+estimated fetal DNA fraction: 0.102232
+
+$f
+[1] 0.1022321
+
+$u
+[1] 3.340181e-05 5.111605e-02 4.332339e-01 4.938682e-01
+
+$pii
+[1] 0.3410853 0.1782946 0.2248062 0.2558140
+
+$Gn
+  [1] 1 1 1 1 1 2 1 1 1 1 1 1 1 1 1 1 1 1 1 3 4 1 3 4 3 2 4 1 2 2 4 4 2 3 2 2 4
+ [38] 3 1 3 3 2 1 3 3 1 2 4 4 1 3 1 1 2 4 2 3 3 4 2 4 2 1 1 2 2 4 3 3 4 1 3 2 2
+ [75] 2 4 3 4 4 4 2 3 3 4 1 3 4 1 4 1 1 3 2 3 4 4 1 4 3 3 4 4 4 4 1 3 1 1 1 4 4
+[112] 1 4 3 4 2 1 3 3 4 1 3 1 2 1 2 1 3 4
+
+$likelihood
+[1] -567.8416
+
+$iter
+[1] 3
+
+$nsnp
+[1] 129
+
+null device 
+          1 
+NULL
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/L80727-22-54.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-54.A4-SEA1-5396-U-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-54.A4-SEA1-5396-U-TN.sam -k 20180729_L80727-22-54.A4-SEA1-5396-U-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-54.A4-SEA1-5396-U-TN.log
+
+Done. Total elapsed time : 15s
+[1] 129   3
+>>> The 1th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.29,0.27,0.21,0.22)
+Mean estimation of B allele freq.: u = (0,0.03,0.46,0.5)
+log likelihood: -556.43
+estimated fetal DNA fraction: 0.053971
+
+>>> The 2th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.29,0.27,0.22,0.22)
+Mean estimation of B allele freq.: u = (0,0.03,0.46,0.5)
+log likelihood: -556.18
+estimated fetal DNA fraction: 0.053971
+
+>>> The 3th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.29,0.27,0.22,0.22)
+Mean estimation of B allele freq.: u = (0,0.03,0.46,0.5)
+log likelihood: -556.18
+estimated fetal DNA fraction: 0.053971
+
+$f
+[1] 0.05397116
+
+$u
+[1] 2.896704e-05 2.698558e-02 4.579397e-01 4.994623e-01
+
+$pii
+[1] 0.2945736 0.2713178 0.2170543 0.2170543
+
+$Gn
+  [1] 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 4 1 3 3 1 3 3 2 3 4 4 1 2 3
+ [38] 3 4 4 2 3 2 2 3 4 2 4 2 1 2 1 2 4 3 2 1 2 4 1 4 3 1 3 4 2 4 2 2 2 2 4 3 2
+ [75] 3 3 4 3 1 4 1 2 4 4 2 3 3 2 4 2 2 4 2 2 3 4 3 4 2 1 3 1 4 4 1 1 4 2 3 1 2
+[112] 2 3 1 4 2 2 3 2 1 3 3 3 4 4 1 3 1 4
+
+$likelihood
+[1] -556.1787
+
+$iter
+[1] 2
+
+$nsnp
+[1] 129
+
+null device 
+          1 
+NULL
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/L80727-22-55.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-55.A4-SEA1-5396-U-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-55.A4-SEA1-5396-U-TN.sam -k 20180729_L80727-22-55.A4-SEA1-5396-U-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-55.A4-SEA1-5396-U-TN.log
+
+Done. Total elapsed time : 15s
+[1] 127   3
+>>> The 1th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.39,0.16,0.2,0.26)
+Mean estimation of B allele freq.: u = (0,0.04,0.45,0.5)
+log likelihood: -534.20
+estimated fetal DNA fraction: 0.083516
+
+>>> The 2th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.39,0.16,0.17,0.28)
+Mean estimation of B allele freq.: u = (0,0.04,0.45,0.5)
+log likelihood: -533.94
+estimated fetal DNA fraction: 0.083516
+
+>>> The 3th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.39,0.16,0.17,0.29)
+Mean estimation of B allele freq.: u = (0,0.04,0.45,0.5)
+log likelihood: -534.14
+estimated fetal DNA fraction: 0.083516
+
+$f
+[1] 0.08351583
+
+$u
+[1] 1.859064e-05 4.175792e-02 4.465546e-01 4.958737e-01
+
+$pii
+[1] 0.3858268 0.1574803 0.1732283 0.2834646
+
+$Gn
+  [1] 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4 1 1 1 1 4 4 3 1 1 1 1 1 3 1 1 4 3 3 1 2 1 2
+ [38] 1 4 4 2 4 4 2 1 1 4 2 3 1 4 4 4 4 2 4 1 1 3 4 4 1 2 3 4 2 2 4 1 3 4 1 4 2
+ [75] 4 2 1 3 3 3 4 1 4 4 1 1 3 4 4 3 1 4 2 4 4 3 4 4 2 1 3 2 4 2 3 3 1 3 3 4 1
+[112] 2 2 3 2 4 4 1 1 3 1 3 4 2 2 1 1
+
+$likelihood
+[1] -533.9374
+
+$iter
+[1] 2
+
+$nsnp
+[1] 127
+
+null device 
+          1 
+NULL
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/L80727-22-56.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-56.A4-SEA1-5396-U-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-56.A4-SEA1-5396-U-TN.sam -k 20180729_L80727-22-56.A4-SEA1-5396-U-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_L80727-22-56.A4-SEA1-5396-U-TN.log
+
+Done. Total elapsed time : 13s
+[1] 129   3
+>>> The 1th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.37,0.22,0.17,0.23)
+Mean estimation of B allele freq.: u = (0,0.02,0.46,0.49)
+log likelihood: -550.93
+estimated fetal DNA fraction: 0.044764
+
+>>> The 2th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.37,0.22,0.16,0.24)
+Mean estimation of B allele freq.: u = (0,0.02,0.45,0.49)
+log likelihood: -550.53
+estimated fetal DNA fraction: 0.044764
+
+>>> The 3th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.37,0.22,0.16,0.25)
+Mean estimation of B allele freq.: u = (0,0.02,0.45,0.49)
+log likelihood: -549.97
+estimated fetal DNA fraction: 0.044764
+
+>>> The 4th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.37,0.22,0.14,0.26)
+Mean estimation of B allele freq.: u = (0,0.02,0.45,0.49)
+log likelihood: -548.68
+estimated fetal DNA fraction: 0.044764
+
+>>> The 5th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.37,0.22,0.13,0.27)
+Mean estimation of B allele freq.: u = (0,0.02,0.45,0.49)
+log likelihood: -548.08
+estimated fetal DNA fraction: 0.044764
+
+>>> The 6th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.37,0.22,0.11,0.29)
+Mean estimation of B allele freq.: u = (0,0.02,0.45,0.49)
+log likelihood: -544.49
+estimated fetal DNA fraction: 0.044764
+
+>>> The 7th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.37,0.22,0.05,0.35)
+Mean estimation of B allele freq.: u = (0,0.02,0.43,0.49)
+log likelihood: -529.19
+estimated fetal DNA fraction: 0.044764
+
+>>> The 8th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.37,0.22,0.03,0.37)
+Mean estimation of B allele freq.: u = (0,0.02,0.41,0.48)
+log likelihood: -513.89
+estimated fetal DNA fraction: 0.044764
+
+>>> The 9th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.37,0.22,0.02,0.39)
+Mean estimation of B allele freq.: u = (0,0.02,0.36,0.48)
+log likelihood: -494.44
+estimated fetal DNA fraction: 0.044764
+
+>>> The 10th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.37,0.22,0.02,0.39)
+Mean estimation of B allele freq.: u = (0,0.02,0.36,0.48)
+log likelihood: -494.44
+estimated fetal DNA fraction: 0.044764
+
+$f
+[1] 0.04476366
+
+$u
+[1] 1.059547e-05 2.238183e-02 3.561421e-01 4.818786e-01
+
+$pii
+[1] 0.37209302 0.22480620 0.01550388 0.38759690
+
+$Gn
+  [1] 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 1 1 1 4 4 4 4 4 2 1 2 4 4 2
+ [38] 1 4 2 2 1 4 3 1 1 1 1 4 4 4 4 4 2 4 2 1 1 4 2 2 1 2 1 4 2 4 2 1 4 4 3 2 2
+ [75] 4 1 4 4 4 1 1 4 4 1 2 2 4 4 4 4 2 4 4 1 4 2 2 1 2 1 2 4 4 4 4 4 4 4 1 2 4
+[112] 4 4 4 4 2 2 2 2 4 1 2 4 1 4 1 4 1 4
+
+$likelihood
+[1] -494.4372
+
+$iter
+[1] 9
+
+$nsnp
+[1] 129
+
+null device 
+          1 
+NULL
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/ZX01L180727.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN
+SEA1-5396-D-12-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX01L180727.A4-SEA1-5396-U-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX01L180727.A4-SEA1-5396-U-TN.sam -k 20180729_ZX01L180727.A4-SEA1-5396-U-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX01L180727.A4-SEA1-5396-U-TN.log
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/ZX01L180727.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN
+SEA1-5396-D-12-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX01L180727.SEA1-5396-D-12-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX01L180727.SEA1-5396-D-12-TN.sam -k 20180729_ZX01L180727.SEA1-5396-D-12-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX01L180727.SEA1-5396-D-12-TN.log
+
+Done. Total elapsed time : 33s
+[1] 129   3
+>>> The 1th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.35,0.18,0.25,0.22)
+Mean estimation of B allele freq.: u = (0,0.03,0.45,0.5)
+log likelihood: -606.82
+estimated fetal DNA fraction: 0.061741
+
+>>> The 2th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.35,0.18,0.26,0.22)
+Mean estimation of B allele freq.: u = (0,0.03,0.45,0.5)
+log likelihood: -607.08
+estimated fetal DNA fraction: 0.061741
+
+$f
+[1] 0.06174069
+
+$u
+[1] 0.0000620771 0.0308703446 0.4493290508 0.5026578733
+
+$pii
+[1] 0.3488372 0.1782946 0.2480620 0.2248062
+
+$Gn
+  [1] 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 4 1 3 3 3 3 4 2 1 1 2 1 4 1 2 4 4
+ [38] 2 4 3 4 3 2 3 4 3 3 4 4 4 2 1 3 4 4 1 1 2 3 2 4 1 4 2 3 2 4 3 2 3 4 2 1 1
+ [75] 3 2 1 3 4 3 3 1 4 1 3 4 3 3 1 4 3 3 3 4 1 2 2 2 2 4 1 4 2 2 2 4 2 1 1 3 4
+[112] 4 1 1 1 1 3 3 3 3 1 1 4 3 2 3 1 4 3
+
+$likelihood
+[1] -606.8192
+
+$iter
+[1] 1
+
+$nsnp
+[1] 129
+
+null device 
+          1 
+NULL
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/ZX02L180727.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN
+SEA1-5396-D-12-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX02L180727.A4-SEA1-5396-U-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX02L180727.A4-SEA1-5396-U-TN.sam -k 20180729_ZX02L180727.A4-SEA1-5396-U-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX02L180727.A4-SEA1-5396-U-TN.log
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/ZX02L180727.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN
+SEA1-5396-D-12-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX02L180727.SEA1-5396-D-12-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX02L180727.SEA1-5396-D-12-TN.sam -k 20180729_ZX02L180727.SEA1-5396-D-12-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX02L180727.SEA1-5396-D-12-TN.log
+
+Done. Total elapsed time : 37s
+[1] 129   3
+>>> The 1th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.36,0.17,0.27,0.2)
+Mean estimation of B allele freq.: u = (0,0.06,0.43,0.5)
+log likelihood: -628.73
+estimated fetal DNA fraction: 0.128848
+
+>>> The 2th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.36,0.17,0.25,0.22)
+Mean estimation of B allele freq.: u = (0,0.06,0.43,0.49)
+log likelihood: -624.18
+estimated fetal DNA fraction: 0.128848
+
+>>> The 3th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.36,0.17,0.23,0.24)
+Mean estimation of B allele freq.: u = (0,0.06,0.42,0.49)
+log likelihood: -623.63
+estimated fetal DNA fraction: 0.128848
+
+>>> The 4th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.36,0.17,0.22,0.25)
+Mean estimation of B allele freq.: u = (0,0.06,0.42,0.49)
+log likelihood: -623.67
+estimated fetal DNA fraction: 0.128848
+
+$f
+[1] 0.1288482
+
+$u
+[1] 0.0002800396 0.0644240994 0.4239817235 0.4933289409
+
+$pii
+[1] 0.3565891 0.1705426 0.2325581 0.2403101
+
+$Gn
+  [1] 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 2 4 3 2 1 1 2 1 3 3 2 1 2 4 2 4 4
+ [38] 4 3 1 4 1 4 1 3 2 3 3 1 3 2 4 4 3 4 4 4 1 4 2 4 2 4 4 3 1 4 1 1 4 3 1 2 4
+ [75] 2 2 3 2 2 1 4 3 3 3 4 3 2 4 1 3 4 4 3 1 2 2 3 1 3 1 4 3 1 1 2 1 1 1 3 4 3
+[112] 1 2 1 3 3 3 3 2 3 4 4 1 4 4 1 4 2 3
+
+$likelihood
+[1] -623.6318
+
+$iter
+[1] 3
+
+$nsnp
+[1] 129
+
+null device 
+          1 
+NULL
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/ZX03L180727.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN
+SEA1-5396-D-12-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX03L180727.A4-SEA1-5396-U-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX03L180727.A4-SEA1-5396-U-TN.sam -k 20180729_ZX03L180727.A4-SEA1-5396-U-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX03L180727.A4-SEA1-5396-U-TN.log
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/ZX03L180727.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN
+SEA1-5396-D-12-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX03L180727.SEA1-5396-D-12-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX03L180727.SEA1-5396-D-12-TN.sam -k 20180729_ZX03L180727.SEA1-5396-D-12-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX03L180727.SEA1-5396-D-12-TN.log
+
+Done. Total elapsed time : 31s
+[1] 129   3
+>>> The 1th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.34,0.26,0.21,0.19)
+Mean estimation of B allele freq.: u = (0,0.1,0.39,0.5)
+log likelihood: -620.98
+estimated fetal DNA fraction: 0.199664
+
+>>> The 2th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.34,0.26,0.18,0.22)
+Mean estimation of B allele freq.: u = (0,0.1,0.38,0.5)
+log likelihood: -604.29
+estimated fetal DNA fraction: 0.199664
+
+>>> The 3th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.34,0.26,0.18,0.22)
+Mean estimation of B allele freq.: u = (0,0.1,0.38,0.5)
+log likelihood: -604.29
+estimated fetal DNA fraction: 0.199664
+
+$f
+[1] 0.1996639
+
+$u
+[1] 0.00000000 0.09983197 0.37572459 0.49734667
+
+$pii
+[1] 0.3410853 0.2558140 0.1782946 0.2248062
+
+$Gn
+  [1] 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 3 1 3 1 1 4 4 4 2 4 1 4 3 1 2
+ [38] 2 4 3 1 2 1 4 2 3 3 2 4 2 4 1 1 3 2 3 1 1 2 3 2 4 4 3 4 1 1 3 4 2 2 4 2 1
+ [75] 3 4 4 2 4 1 2 2 3 4 2 2 4 4 3 1 2 2 3 2 2 4 1 1 4 4 4 4 1 4 4 2 4 2 2 1 3
+[112] 4 3 1 1 3 3 2 1 2 1 2 3 2 3 2 2 3 3
+
+$likelihood
+[1] -604.2914
+
+$iter
+[1] 2
+
+$nsnp
+[1] 129
+
+null device 
+          1 
+NULL
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/ZX04L180727.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN
+SEA1-5396-D-12-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX04L180727.A4-SEA1-5396-U-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX04L180727.A4-SEA1-5396-U-TN.sam -k 20180729_ZX04L180727.A4-SEA1-5396-U-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX04L180727.A4-SEA1-5396-U-TN.log
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/ZX04L180727.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN
+SEA1-5396-D-12-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX04L180727.SEA1-5396-D-12-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX04L180727.SEA1-5396-D-12-TN.sam -k 20180729_ZX04L180727.SEA1-5396-D-12-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX04L180727.SEA1-5396-D-12-TN.log
+
+Done. Total elapsed time : 32s
+[1] 129   3
+>>> The 1th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.35,0.26,0.26,0.13)
+Mean estimation of B allele freq.: u = (0,0.06,0.43,0.5)
+log likelihood: -656.67
+estimated fetal DNA fraction: 0.125047
+
+>>> The 2th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.36,0.25,0.23,0.16)
+Mean estimation of B allele freq.: u = (0,0.06,0.42,0.5)
+log likelihood: -650.28
+estimated fetal DNA fraction: 0.126226
+
+>>> The 3th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.36,0.25,0.22,0.17)
+Mean estimation of B allele freq.: u = (0,0.06,0.42,0.5)
+log likelihood: -649.98
+estimated fetal DNA fraction: 0.126226
+
+>>> The 4th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.36,0.25,0.22,0.17)
+Mean estimation of B allele freq.: u = (0,0.06,0.42,0.5)
+log likelihood: -649.98
+estimated fetal DNA fraction: 0.126226
+
+$f
+[1] 0.1262263
+
+$u
+[1] 8.457375e-05 6.311317e-02 4.220066e-01 4.964436e-01
+
+$pii
+[1] 0.3565891 0.2480620 0.2248062 0.1705426
+
+$Gn
+  [1] 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4 2 1 1 1 3 2 1 2 3 3 2 4 3 1 1 2 4
+ [38] 1 1 2 4 1 4 4 2 3 1 2 3 2 1 3 2 4 2 1 2 2 2 3 4 2 4 3 4 1 1 2 4 4 4 3 4 3
+ [75] 2 2 3 1 2 2 2 2 2 1 2 4 3 1 1 2 2 4 3 3 3 4 2 4 4 1 4 2 1 4 3 3 3 3 2 1 1
+[112] 2 2 3 1 1 3 4 3 3 3 3 2 3 1 1 1 3 3
+
+$likelihood
+[1] -649.9757
+
+$iter
+[1] 3
+
+$nsnp
+[1] 129
+
+null device 
+          1 
+NULL
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/ZX05L180727.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN
+SEA1-5396-D-12-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX05L180727.A4-SEA1-5396-U-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX05L180727.A4-SEA1-5396-U-TN.sam -k 20180729_ZX05L180727.A4-SEA1-5396-U-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX05L180727.A4-SEA1-5396-U-TN.log
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/ZX05L180727.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN
+SEA1-5396-D-12-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX05L180727.SEA1-5396-D-12-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX05L180727.SEA1-5396-D-12-TN.sam -k 20180729_ZX05L180727.SEA1-5396-D-12-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX05L180727.SEA1-5396-D-12-TN.log
+
+Done. Total elapsed time : 39s
+[1] 129   3
+>>> The 1th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.43,0.14,0.22,0.21)
+Mean estimation of B allele freq.: u = (0,0.03,0.45,0.5)
+log likelihood: -612.28
+estimated fetal DNA fraction: 0.058415
+
+>>> The 2th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.43,0.14,0.22,0.21)
+Mean estimation of B allele freq.: u = (0,0.03,0.45,0.5)
+log likelihood: -612.28
+estimated fetal DNA fraction: 0.058415
+
+$f
+[1] 0.05841489
+
+$u
+[1] 0.0000785367 0.0292074470 0.4528271824 0.5011182877
+
+$pii
+[1] 0.4263566 0.1395349 0.2248062 0.2093023
+
+$Gn
+  [1] 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 2 1 3 1 2 4 4 4 3 3 4 3 1 4 2 1 2
+ [38] 4 1 4 4 1 3 3 3 4 1 1 4 3 1 4 1 3 2 2 1 2 2 2 3 1 3 4 2 1 2 3 1 4 4 3 4 3
+ [75] 4 3 1 1 3 1 1 1 3 1 3 1 2 3 1 4 3 3 3 2 2 1 2 1 3 1 1 4 1 2 1 1 4 2 3 4 1
+[112] 1 4 1 3 4 4 3 4 3 4 1 1 1 4 4 2 1 3
+
+$likelihood
+[1] -612.2832
+
+$iter
+[1] 1
+
+$nsnp
+[1] 129
+
+null device 
+          1 
+NULL
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/ZX06L180727.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN
+SEA1-5396-D-12-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX06L180727.A4-SEA1-5396-U-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX06L180727.A4-SEA1-5396-U-TN.sam -k 20180729_ZX06L180727.A4-SEA1-5396-U-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX06L180727.A4-SEA1-5396-U-TN.log
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/ZX06L180727.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN
+SEA1-5396-D-12-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX06L180727.SEA1-5396-D-12-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX06L180727.SEA1-5396-D-12-TN.sam -k 20180729_ZX06L180727.SEA1-5396-D-12-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX06L180727.SEA1-5396-D-12-TN.log
+
+Done. Total elapsed time : 36s
+[1] 129   3
+>>> The 1th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.37,0.24,0.24,0.15)
+Mean estimation of B allele freq.: u = (0,0.04,0.44,0.5)
+log likelihood: -619.08
+estimated fetal DNA fraction: 0.077500
+
+>>> The 2th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.37,0.24,0.23,0.16)
+Mean estimation of B allele freq.: u = (0,0.04,0.44,0.5)
+log likelihood: -618.22
+estimated fetal DNA fraction: 0.077500
+
+>>> The 3th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.37,0.24,0.23,0.16)
+Mean estimation of B allele freq.: u = (0,0.04,0.44,0.5)
+log likelihood: -618.22
+estimated fetal DNA fraction: 0.077500
+
+$f
+[1] 0.07749957
+
+$u
+[1] 1.888556e-05 3.874979e-02 4.396299e-01 4.991082e-01
+
+$pii
+[1] 0.3720930 0.2403101 0.2325581 0.1550388
+
+$Gn
+  [1] 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 4 3 1 1 1 4 3 2 1 1 1 3 2 2 4 1 3
+ [38] 3 2 2 2 3 2 2 3 2 1 3 4 1 1 3 2 3 3 2 1 2 1 4 1 1 2 1 1 1 3 2 3 3 2 3 4 4
+ [75] 3 1 3 3 2 2 4 2 3 3 4 4 2 2 3 2 4 1 2 1 2 1 1 3 4 2 1 1 1 4 2 3 4 3 3 4 3
+[112] 4 3 1 3 2 1 2 2 3 1 1 2 4 2 4 4 4 3
+
+$likelihood
+[1] -618.2154
+
+$iter
+[1] 2
+
+$nsnp
+[1] 129
+
+null device 
+          1 
+NULL
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/ZX07L180727.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN
+SEA1-5396-D-12-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX07L180727.A4-SEA1-5396-U-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX07L180727.A4-SEA1-5396-U-TN.sam -k 20180729_ZX07L180727.A4-SEA1-5396-U-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX07L180727.A4-SEA1-5396-U-TN.log
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/ZX07L180727.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN
+SEA1-5396-D-12-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX07L180727.SEA1-5396-D-12-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX07L180727.SEA1-5396-D-12-TN.sam -k 20180729_ZX07L180727.SEA1-5396-D-12-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX07L180727.SEA1-5396-D-12-TN.log
+
+Done. Total elapsed time : 26s
+[1] 129   3
+>>> The 1th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.33,0.21,0.26,0.2)
+Mean estimation of B allele freq.: u = (0,0.04,0.44,0.5)
+log likelihood: -597.64
+estimated fetal DNA fraction: 0.080127
+
+>>> The 2th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.33,0.2,0.27,0.19)
+Mean estimation of B allele freq.: u = (0,0.04,0.45,0.51)
+log likelihood: -597.16
+estimated fetal DNA fraction: 0.080954
+
+>>> The 3th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.33,0.2,0.27,0.19)
+Mean estimation of B allele freq.: u = (0,0.04,0.45,0.51)
+log likelihood: -597.16
+estimated fetal DNA fraction: 0.080954
+
+$f
+[1] 0.08095436
+
+$u
+[1] 5.653471e-05 4.047718e-02 4.454830e-01 5.053505e-01
+
+$pii
+[1] 0.3333333 0.2015504 0.2713178 0.1937984
+
+$Gn
+  [1] 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 2 4 3 1 1 3 1 2 4 4 2 4 4 3 4 3 1
+ [38] 4 3 3 1 3 2 3 4 4 1 3 3 3 2 3 3 3 2 2 1 4 1 3 3 2 1 2 2 1 4 4 4 3 2 1 2 4
+ [75] 2 3 3 2 3 4 2 1 1 4 1 4 3 4 1 3 1 2 3 3 1 2 4 1 3 2 1 2 2 3 3 1 2 2 1 2 1
+[112] 2 4 4 3 3 2 3 3 4 4 3 3 4 1 4 1 2 3
+
+$likelihood
+[1] -597.1613
+
+$iter
+[1] 2
+
+$nsnp
+[1] 129
+
+null device 
+          1 
+NULL
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/ZX08L180727.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN
+SEA1-5396-D-12-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX08L180727.A4-SEA1-5396-U-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX08L180727.A4-SEA1-5396-U-TN.sam -k 20180729_ZX08L180727.A4-SEA1-5396-U-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX08L180727.A4-SEA1-5396-U-TN.log
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/ZX08L180727.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN
+SEA1-5396-D-12-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX08L180727.SEA1-5396-D-12-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX08L180727.SEA1-5396-D-12-TN.sam -k 20180729_ZX08L180727.SEA1-5396-D-12-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX08L180727.SEA1-5396-D-12-TN.log
+
+Done. Total elapsed time : 31s
+[1] 129   3
+>>> The 1th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.39,0.24,0.25,0.12)
+Mean estimation of B allele freq.: u = (0,0.06,0.43,0.5)
+log likelihood: -605.67
+estimated fetal DNA fraction: 0.121320
+
+>>> The 2th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.4,0.23,0.21,0.16)
+Mean estimation of B allele freq.: u = (0,0.06,0.42,0.49)
+log likelihood: -595.05
+estimated fetal DNA fraction: 0.122697
+
+>>> The 3th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.4,0.23,0.2,0.17)
+Mean estimation of B allele freq.: u = (0,0.06,0.42,0.49)
+log likelihood: -594.80
+estimated fetal DNA fraction: 0.122697
+
+>>> The 4th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.4,0.23,0.2,0.17)
+Mean estimation of B allele freq.: u = (0,0.06,0.42,0.49)
+log likelihood: -594.80
+estimated fetal DNA fraction: 0.122697
+
+$f
+[1] 0.122697
+
+$u
+[1] 0.0000841804 0.0613485035 0.4214664691 0.4891853127
+
+$pii
+[1] 0.3953488 0.2325581 0.2015504 0.1705426
+
+$Gn
+  [1] 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4 3 3 2 1 4 3 2 1 2 2 3 4 3 3 2 1 3
+ [38] 3 1 1 1 3 1 2 4 4 2 1 4 1 4 2 1 4 1 3 4 2 3 1 4 2 3 1 3 1 3 1 4 4 3 4 4 3
+ [75] 1 2 1 3 2 1 3 1 4 2 1 1 1 2 2 3 3 2 4 2 4 2 2 4 1 2 1 3 2 3 1 2 2 2 2 4 2
+[112] 1 4 2 4 1 1 1 2 3 3 1 2 1 2 1 3 4 3
+
+$likelihood
+[1] -594.7981
+
+$iter
+[1] 3
+
+$nsnp
+[1] 129
+
+null device 
+          1 
+NULL
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/ZX09L180727.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN
+SEA1-5396-D-12-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX09L180727.A4-SEA1-5396-U-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX09L180727.A4-SEA1-5396-U-TN.sam -k 20180729_ZX09L180727.A4-SEA1-5396-U-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX09L180727.A4-SEA1-5396-U-TN.log
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/ZX09L180727.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN
+SEA1-5396-D-12-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX09L180727.SEA1-5396-D-12-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX09L180727.SEA1-5396-D-12-TN.sam -k 20180729_ZX09L180727.SEA1-5396-D-12-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX09L180727.SEA1-5396-D-12-TN.log
+
+Done. Total elapsed time : 25s
+[1] 129   3
+>>> The 1th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.33,0.22,0.24,0.21)
+Mean estimation of B allele freq.: u = (0,0.07,0.43,0.5)
+log likelihood: -579.45
+estimated fetal DNA fraction: 0.131810
+
+>>> The 2th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.34,0.21,0.21,0.24)
+Mean estimation of B allele freq.: u = (0,0.07,0.43,0.5)
+log likelihood: -574.58
+estimated fetal DNA fraction: 0.133766
+
+>>> The 3th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.34,0.21,0.19,0.26)
+Mean estimation of B allele freq.: u = (0,0.07,0.42,0.5)
+log likelihood: -574.11
+estimated fetal DNA fraction: 0.133766
+
+>>> The 4th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.34,0.21,0.19,0.26)
+Mean estimation of B allele freq.: u = (0,0.07,0.42,0.5)
+log likelihood: -574.11
+estimated fetal DNA fraction: 0.133766
+
+$f
+[1] 0.133766
+
+$u
+[1] 9.924245e-05 6.688300e-02 4.237972e-01 4.954511e-01
+
+$pii
+[1] 0.3410853 0.2093023 0.1937984 0.2558140
+
+$Gn
+  [1] 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 1 1 2 3 2 3 1 1 4 3 3 4 4 3 2 2 1 2 1 4
+ [38] 4 3 4 2 1 3 4 2 4 3 4 1 2 4 3 3 1 2 2 1 2 4 4 1 4 3 1 2 1 3 1 3 4 1 1 3 3
+ [75] 4 2 4 2 3 2 4 3 1 1 4 4 1 4 3 2 4 2 4 3 4 2 3 4 4 3 2 4 4 1 1 1 2 3 2 2 1
+[112] 1 2 4 3 1 2 2 2 4 1 4 1 3 4 1 4 4 2
+
+$likelihood
+[1] -574.1053
+
+$iter
+[1] 3
+
+$nsnp
+[1] 129
+
+null device 
+          1 
+NULL
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/ZX10L180727.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX10L180727.A4-SEA1-5396-U-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX10L180727.A4-SEA1-5396-U-TN.sam -k 20180729_ZX10L180727.A4-SEA1-5396-U-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX10L180727.A4-SEA1-5396-U-TN.log
+
+Done. Total elapsed time : 14s
+[1] 128   3
+>>> The 1th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.33,0.27,0.24,0.16)
+Mean estimation of B allele freq.: u = (0,0.08,0.43,0.5)
+log likelihood: -634.98
+estimated fetal DNA fraction: 0.155874
+
+>>> The 2th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.34,0.27,0.2,0.2)
+Mean estimation of B allele freq.: u = (0,0.08,0.42,0.5)
+log likelihood: -619.11
+estimated fetal DNA fraction: 0.157505
+
+>>> The 3th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.34,0.27,0.18,0.22)
+Mean estimation of B allele freq.: u = (0,0.08,0.41,0.49)
+log likelihood: -616.43
+estimated fetal DNA fraction: 0.157505
+
+>>> The 4th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.34,0.27,0.17,0.23)
+Mean estimation of B allele freq.: u = (0,0.08,0.41,0.49)
+log likelihood: -616.38
+estimated fetal DNA fraction: 0.157505
+
+>>> The 5th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.34,0.27,0.17,0.23)
+Mean estimation of B allele freq.: u = (0,0.08,0.41,0.49)
+log likelihood: -616.38
+estimated fetal DNA fraction: 0.157505
+
+$f
+[1] 0.157505
+
+$u
+[1] 0.0002173272 0.0787524952 0.4105186772 0.4915598785
+
+$pii
+[1] 0.3359375 0.2656250 0.1718750 0.2265625
+
+$Gn
+  [1] 1 1 2 1 1 1 1 1 1 1 1 1 1 1 1 1 4 1 1 4 4 1 1 1 3 4 4 3 3 3 4 3 2 4 1 2 2
+ [38] 4 3 2 3 4 1 2 1 2 1 4 2 2 3 3 4 4 2 3 1 2 2 1 3 2 1 3 4 1 1 2 2 2 4 4 1 2
+ [75] 4 4 4 4 2 1 3 3 2 2 4 4 4 2 2 2 4 3 1 4 1 3 1 4 2 3 3 4 4 3 1 1 1 2 3 2 1
+[112] 2 2 1 1 2 2 1 1 3 2 2 2 1 4 2 3 4
+
+$likelihood
+[1] -616.3841
+
+$iter
+[1] 4
+
+$nsnp
+[1] 128
+
+null device 
+          1 
+NULL
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/ZX11L180727.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX11L180727.A4-SEA1-5396-U-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX11L180727.A4-SEA1-5396-U-TN.sam -k 20180729_ZX11L180727.A4-SEA1-5396-U-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX11L180727.A4-SEA1-5396-U-TN.log
+
+Done. Total elapsed time : 16s
+[1] 128   3
+>>> The 1th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.38,0.2,0.17,0.25)
+Mean estimation of B allele freq.: u = (0,0.03,0.46,0.5)
+log likelihood: -522.73
+estimated fetal DNA fraction: 0.063153
+
+>>> The 2th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.38,0.2,0.19,0.23)
+Mean estimation of B allele freq.: u = (0,0.03,0.47,0.51)
+log likelihood: -521.31
+estimated fetal DNA fraction: 0.063153
+
+>>> The 3th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.38,0.2,0.2,0.22)
+Mean estimation of B allele freq.: u = (0,0.03,0.47,0.51)
+log likelihood: -520.69
+estimated fetal DNA fraction: 0.063153
+
+>>> The 4th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.38,0.2,0.22,0.2)
+Mean estimation of B allele freq.: u = (0,0.03,0.47,0.51)
+log likelihood: -520.32
+estimated fetal DNA fraction: 0.063153
+
+>>> The 5th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.38,0.2,0.22,0.2)
+Mean estimation of B allele freq.: u = (0,0.03,0.47,0.51)
+log likelihood: -520.32
+estimated fetal DNA fraction: 0.063153
+
+$f
+[1] 0.06315338
+
+$u
+[1] 3.340608e-05 3.157669e-02 4.668837e-01 5.080314e-01
+
+$pii
+[1] 0.375000 0.203125 0.218750 0.203125
+
+$Gn
+  [1] 1 1 1 1 1 1 1 1 1 1 3 1 1 1 1 1 2 1 1 4 4 3 2 2 2 3 4 3 2 2 4 4 3 4 1 3 1
+ [38] 4 3 1 1 2 1 1 4 4 4 2 3 4 2 1 4 4 4 4 4 3 1 1 2 3 2 3 4 2 2 1 4 1 3 1 1 1
+ [75] 2 1 1 3 2 2 1 2 1 1 1 2 1 3 4 3 1 2 1 3 1 3 3 3 3 4 1 1 2 1 2 1 1 3 4 1 2
+[112] 4 3 2 3 4 3 1 3 3 4 2 2 4 2 4 3 3
+
+$likelihood
+[1] -520.3208
+
+$iter
+[1] 4
+
+$nsnp
+[1] 128
+
+null device 
+          1 
+NULL
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/ZX12L180727.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX12L180727.A4-SEA1-5396-U-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX12L180727.A4-SEA1-5396-U-TN.sam -k 20180729_ZX12L180727.A4-SEA1-5396-U-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX12L180727.A4-SEA1-5396-U-TN.log
+
+Done. Total elapsed time : 15s
+[1] 128   3
+>>> The 1th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.34,0.2,0.3,0.16)
+Mean estimation of B allele freq.: u = (0,0.05,0.44,0.5)
+log likelihood: -562.09
+estimated fetal DNA fraction: 0.103045
+
+>>> The 2th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.34,0.2,0.3,0.16)
+Mean estimation of B allele freq.: u = (0,0.05,0.44,0.5)
+log likelihood: -562.09
+estimated fetal DNA fraction: 0.103045
+
+$f
+[1] 0.1030447
+
+$u
+[1] 1.271504e-05 5.152237e-02 4.407981e-01 5.004514e-01
+
+$pii
+[1] 0.343750 0.203125 0.296875 0.156250
+
+$Gn
+  [1] 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 1 1 2 1 3 3 3 3 3 1 1 1 1 3 1 4 4 2 3 3
+ [38] 3 2 3 1 3 4 1 1 2 2 4 1 1 3 4 3 3 4 1 1 3 2 3 3 3 2 1 1 2 3 1 4 3 3 4 4 1
+ [75] 2 3 2 2 4 2 1 4 3 4 3 2 1 3 2 1 4 2 4 3 2 3 4 4 4 2 4 2 1 2 3 1 3 1 2 1 4
+[112] 3 3 2 1 3 2 2 3 1 3 2 3 2 3 2 4 3
+
+$likelihood
+[1] -562.093
+
+$iter
+[1] 1
+
+$nsnp
+[1] 128
+
+null device 
+          1 
+NULL
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/ZX13L180727.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX13L180727.A4-SEA1-5396-U-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX13L180727.A4-SEA1-5396-U-TN.sam -k 20180729_ZX13L180727.A4-SEA1-5396-U-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX13L180727.A4-SEA1-5396-U-TN.log
+
+Done. Total elapsed time : 22s
+[1] 129   3
+>>> The 1th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.34,0.22,0.15,0.29)
+Mean estimation of B allele freq.: u = (0,0.03,0.46,0.5)
+log likelihood: -619.61
+estimated fetal DNA fraction: 0.052856
+
+>>> The 2th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.34,0.22,0.14,0.3)
+Mean estimation of B allele freq.: u = (0,0.03,0.46,0.5)
+log likelihood: -619.64
+estimated fetal DNA fraction: 0.052856
+
+$f
+[1] 0.05285576
+
+$u
+[1] 1.921008e-05 2.642788e-02 4.591690e-01 4.986798e-01
+
+$pii
+[1] 0.3410853 0.2170543 0.1472868 0.2945736
+
+$Gn
+  [1] 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 1 1 1 1 1 4 1 2 4 2 2 4 3 3 4 4 2 2 2 1 4 1
+ [38] 4 4 4 2 4 1 2 1 2 4 2 4 1 3 1 4 1 4 2 2 4 1 4 1 4 2 3 4 2 1 1 3 1 2 2 4 3
+ [75] 4 2 2 4 4 2 1 4 4 3 3 2 4 1 2 4 3 1 1 3 3 1 1 1 3 2 4 2 2 4 4 2 2 4 3 4 1
+[112] 4 4 3 3 3 4 3 4 3 4 2 1 1 1 4 3 1 4
+
+$likelihood
+[1] -619.6104
+
+$iter
+[1] 1
+
+$nsnp
+[1] 129
+
+null device 
+          1 
+NULL
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/ZX14L180727.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX14L180727.A4-SEA1-5396-U-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX14L180727.A4-SEA1-5396-U-TN.sam -k 20180729_ZX14L180727.A4-SEA1-5396-U-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX14L180727.A4-SEA1-5396-U-TN.log
+
+Done. Total elapsed time : 13s
+[1] 128   3
+>>> The 1th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.32,0.27,0.23,0.18)
+Mean estimation of B allele freq.: u = (0,0.06,0.44,0.5)
+log likelihood: -553.03
+estimated fetal DNA fraction: 0.120575
+
+>>> The 2th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.32,0.27,0.22,0.2)
+Mean estimation of B allele freq.: u = (0,0.06,0.44,0.5)
+log likelihood: -552.17
+estimated fetal DNA fraction: 0.120575
+
+>>> The 3th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.32,0.27,0.21,0.2)
+Mean estimation of B allele freq.: u = (0,0.06,0.44,0.5)
+log likelihood: -551.91
+estimated fetal DNA fraction: 0.120575
+
+>>> The 4th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.32,0.27,0.21,0.2)
+Mean estimation of B allele freq.: u = (0,0.06,0.44,0.5)
+log likelihood: -551.91
+estimated fetal DNA fraction: 0.120575
+
+$f
+[1] 0.1205754
+
+$u
+[1] 0.00000000 0.06028768 0.43654159 0.49610870
+
+$pii
+[1] 0.3203125 0.2656250 0.2109375 0.2031250
+
+$Gn
+  [1] 1 1 1 1 1 1 1 1 4 1 1 1 1 1 1 1 1 1 1 3 4 1 4 2 3 1 1 2 1 1 1 1 1 2 3 1 3
+ [38] 2 3 3 3 1 2 2 2 3 3 1 1 1 3 3 3 2 3 1 4 4 3 1 4 4 2 3 2 2 4 4 1 3 1 2 2 2
+ [75] 3 2 4 2 1 2 3 2 4 2 4 4 4 3 4 1 2 4 4 3 1 4 2 2 3 2 3 4 4 4 4 4 3 4 3 2 2
+[112] 2 3 2 2 2 4 1 2 2 2 3 1 2 4 2 1 3
+
+$likelihood
+[1] -551.9146
+
+$iter
+[1] 3
+
+$nsnp
+[1] 128
+
+null device 
+          1 
+NULL
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/ZX15L180727.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX15L180727.A4-SEA1-5396-U-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX15L180727.A4-SEA1-5396-U-TN.sam -k 20180729_ZX15L180727.A4-SEA1-5396-U-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX15L180727.A4-SEA1-5396-U-TN.log
+
+Done. Total elapsed time : 21s
+[1] 128   3
+>>> The 1th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.41,0.23,0.16,0.19)
+Mean estimation of B allele freq.: u = (0,0.03,0.46,0.5)
+log likelihood: -536.28
+estimated fetal DNA fraction: 0.059375
+
+>>> The 2th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.41,0.23,0.17,0.18)
+Mean estimation of B allele freq.: u = (0,0.03,0.46,0.5)
+log likelihood: -536.41
+estimated fetal DNA fraction: 0.059375
+
+$f
+[1] 0.05937466
+
+$u
+[1] 1.628439e-05 2.968733e-02 4.565330e-01 4.995183e-01
+
+$pii
+[1] 0.4140625 0.2343750 0.1640625 0.1875000
+
+$Gn
+  [1] 1 1 4 1 1 1 1 1 1 1 1 1 1 1 1 1 2 1 1 4 4 2 4 3 2 1 3 1 1 1 3 1 4 1 4 4 4
+ [38] 1 1 3 4 3 1 3 3 4 4 1 2 3 3 1 2 3 3 1 3 1 2 2 2 1 4 2 4 2 3 2 3 2 1 1 2 4
+ [75] 1 2 3 2 1 1 2 1 1 3 2 2 1 4 3 3 4 2 4 1 1 2 2 2 2 3 4 1 4 3 4 2 2 2 4 1 1
+[112] 4 4 1 2 1 1 2 2 1 1 1 4 1 1 2 1 3
+
+$likelihood
+[1] -536.2808
+
+$iter
+[1] 1
+
+$nsnp
+[1] 128
+
+null device 
+          1 
+NULL
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/ZX16L180727.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX16L180727.A4-SEA1-5396-U-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX16L180727.A4-SEA1-5396-U-TN.sam -k 20180729_ZX16L180727.A4-SEA1-5396-U-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX16L180727.A4-SEA1-5396-U-TN.log
+
+Done. Total elapsed time : 14s
+[1] 128   3
+>>> The 1th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.36,0.25,0.13,0.26)
+Mean estimation of B allele freq.: u = (0,0.04,0.45,0.5)
+log likelihood: -505.87
+estimated fetal DNA fraction: 0.071008
+
+>>> The 2th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.36,0.25,0.13,0.26)
+Mean estimation of B allele freq.: u = (0,0.04,0.45,0.5)
+log likelihood: -505.87
+estimated fetal DNA fraction: 0.071008
+
+$f
+[1] 0.07100785
+
+$u
+[1] 0.00000000 0.03550393 0.45427249 0.49660844
+
+$pii
+[1] 0.3593750 0.2500000 0.1328125 0.2578125
+
+$Gn
+  [1] 1 1 1 1 1 1 1 1 1 1 4 1 1 1 1 1 2 1 1 1 1 3 2 2 1 2 2 4 2 2 1 2 3 4 2 4 2
+ [38] 4 4 2 3 4 2 3 1 2 4 4 4 1 1 2 4 1 4 1 2 4 3 1 3 1 3 3 2 2 1 3 3 1 1 1 3 2
+ [75] 2 2 1 1 1 1 2 2 4 4 4 2 1 2 2 3 3 3 3 1 1 4 4 4 4 2 1 4 4 1 2 4 4 4 4 4 1
+[112] 1 2 2 3 2 4 2 4 4 3 4 1 1 4 4 2 1
+
+$likelihood
+[1] -505.8668
+
+$iter
+[1] 1
+
+$nsnp
+[1] 128
+
+null device 
+          1 
+NULL
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/ZX17L180727.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX17L180727.A4-SEA1-5396-U-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX17L180727.A4-SEA1-5396-U-TN.sam -k 20180729_ZX17L180727.A4-SEA1-5396-U-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX17L180727.A4-SEA1-5396-U-TN.log
+
+Done. Total elapsed time : 11s
+[1] 128   3
+>>> The 1th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.38,0.2,0.2,0.22)
+Mean estimation of B allele freq.: u = (0,0.04,0.46,0.5)
+log likelihood: -511.23
+estimated fetal DNA fraction: 0.079878
+
+>>> The 2th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.38,0.2,0.21,0.21)
+Mean estimation of B allele freq.: u = (0,0.04,0.46,0.5)
+log likelihood: -511.09
+estimated fetal DNA fraction: 0.079878
+
+>>> The 3th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.38,0.2,0.23,0.2)
+Mean estimation of B allele freq.: u = (0,0.04,0.46,0.5)
+log likelihood: -511.04
+estimated fetal DNA fraction: 0.079878
+
+>>> The 4th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.38,0.2,0.23,0.2)
+Mean estimation of B allele freq.: u = (0,0.04,0.46,0.5)
+log likelihood: -511.04
+estimated fetal DNA fraction: 0.079878
+
+$f
+[1] 0.07987845
+
+$u
+[1] 6.379484e-05 3.993922e-02 4.571194e-01 5.018981e-01
+
+$pii
+[1] 0.3828125 0.1953125 0.2265625 0.1953125
+
+$Gn
+  [1] 1 1 1 1 1 1 1 1 1 1 3 1 1 1 1 1 2 1 1 3 1 2 2 2 3 4 2 1 4 4 1 2 4 2 1 1 4
+ [38] 1 2 3 4 4 2 3 3 1 4 3 3 3 4 2 1 1 2 3 1 4 1 1 1 1 1 3 2 1 4 2 1 2 3 4 3 4
+ [75] 4 2 4 3 4 1 3 1 1 1 3 1 2 4 3 1 4 1 4 3 4 3 3 4 1 3 2 2 1 1 2 2 1 3 2 4 1
+[112] 1 3 1 2 2 3 3 2 4 3 4 2 3 3 1 4 3
+
+$likelihood
+[1] -511.0447
+
+$iter
+[1] 3
+
+$nsnp
+[1] 128
+
+null device 
+          1 
+NULL
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/ZX18L180727.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX18L180727.A4-SEA1-5396-U-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX18L180727.A4-SEA1-5396-U-TN.sam -k 20180729_ZX18L180727.A4-SEA1-5396-U-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX18L180727.A4-SEA1-5396-U-TN.log
+
+Done. Total elapsed time : 24s
+[1] 129   3
+>>> The 1th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.33,0.15,0.32,0.2)
+Mean estimation of B allele freq.: u = (0,0.05,0.43,0.5)
+log likelihood: -687.06
+estimated fetal DNA fraction: 0.106295
+
+>>> The 2th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.33,0.15,0.3,0.22)
+Mean estimation of B allele freq.: u = (0,0.05,0.42,0.5)
+log likelihood: -685.76
+estimated fetal DNA fraction: 0.106295
+
+>>> The 3th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.33,0.15,0.3,0.22)
+Mean estimation of B allele freq.: u = (0,0.05,0.42,0.5)
+log likelihood: -685.76
+estimated fetal DNA fraction: 0.106295
+
+$f
+[1] 0.1062947
+
+$u
+[1] 3.799753e-05 5.314733e-02 4.248730e-01 4.961555e-01
+
+$pii
+[1] 0.3333333 0.1472868 0.3023256 0.2170543
+
+$Gn
+  [1] 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4 3 4 2 2 3 3 3 3 2 2 3 3 2 3 1 4 2
+ [38] 3 4 2 3 4 1 3 2 2 3 4 3 1 4 4 2 4 3 1 3 1 3 1 4 1 3 1 4 1 3 4 1 1 2 2 2 3
+ [75] 3 1 3 1 3 4 1 4 1 1 1 4 1 2 3 4 1 4 4 1 2 2 3 3 4 3 4 4 4 4 3 4 3 3 1 3 2
+[112] 3 3 3 3 1 2 3 4 3 2 1 3 4 1 4 3 4 3
+
+$likelihood
+[1] -685.7556
+
+$iter
+[1] 2
+
+$nsnp
+[1] 129
+
+null device 
+          1 
+NULL
+samtools view /data/bioit/biodata/duyp/Project/Thalassemia/PAGB_TMA_20180729/05.variant_detect/ZX19L180727.GATK_realign.bam|grep 'A4-SEA1-5396-U-TN'|less >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX19L180727.A4-SEA1-5396-U-TN.samperl /data/bioit/biodata/wugz/wugz_bin_std/bin/ctDNA/SEAadjust_test/remove_large_insertsize/SEA_intersize.pl -i /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX19L180727.A4-SEA1-5396-U-TN.sam -k 20180729_ZX19L180727.A4-SEA1-5396-U-TN -od /data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729 >/data/bioit/biodata/wugz/wugz_testout/ctDNA/SEAadjust_test/remove_large_insertsize/20180729/20180729_ZX19L180727.A4-SEA1-5396-U-TN.log
+
+Done. Total elapsed time : 19s
+[1] 128   3
+>>> The 1th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.3,0.32,0.18,0.2)
+Mean estimation of B allele freq.: u = (0,0.03,0.45,0.5)
+log likelihood: -607.54
+estimated fetal DNA fraction: 0.058878
+
+>>> The 2th iteration 
+=== params. estimation ===
+Prop. of different genetypes: pi = (0.3,0.32,0.18,0.2)
+Mean estimation of B allele freq.: u = (0,0.03,0.45,0.5)
+log likelihood: -607.54
+estimated fetal DNA fraction: 0.058878
+
+$f
+[1] 0.05887762
+
+$u
+[1] 0.00000000 0.02943881 0.45262592 0.50249056
+
+$pii
+[1] 0.2968750 0.3203125 0.1796875 0.2031250
+
+$Gn
+  [1] 1 1 1 1 1 1 1 1 4 1 2 1 1 1 1 1 1 1 1 3 2 2 3 3 2 2 4 2 1 1 1 2 4 2 2 2 2
+ [38] 2 4 3 3 4 1 2 1 3 4 4 4 2 2 2 4 2 3 4 2 4 3 2 2 3 2 3 1 2 1 3 1 2 2 3 3 4
+ [75] 3 1 2 2 3 3 1 2 1 2 2 1 2 4 4 2 2 2 2 3 1 1 2 2 1 2 4 3 4 2 1 1 4 2 4 4 4
+[112] 4 4 4 3 2 1 3 2 1 1 1 3 3 3 4 4 4
+
+$likelihood
+[1] -607.5417
+
+$iter
+[1] 1
+
+$nsnp
+[1] 128
+
+null device 
+          1 
+NULL
